@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smapleOTF/static/css/main.c5b616b2.css",
-    "main.js": "/smapleOTF/static/js/main.21ed81af.js",
+    "main.js": "/smapleOTF/static/js/main.819ad7a6.js",
     "static/css/662.1f4e40c4.chunk.css": "/smapleOTF/static/css/662.1f4e40c4.chunk.css",
     "static/js/662.751d7976.chunk.js": "/smapleOTF/static/js/662.751d7976.chunk.js",
     "static/css/923.1f4e40c4.chunk.css": "/smapleOTF/static/css/923.1f4e40c4.chunk.css",
@@ -480,7 +480,7 @@
     "static/media/drop-sm.svg": "/smapleOTF/static/media/drop-sm.c219a4368c6e52cb790bcbad3113fed2.svg",
     "static/media/alert-info.svg": "/smapleOTF/static/media/alert-info.e2569bc7e4ccfb78618555177552da26.svg",
     "main.c5b616b2.css.map": "/smapleOTF/static/css/main.c5b616b2.css.map",
-    "main.21ed81af.js.map": "/smapleOTF/static/js/main.21ed81af.js.map",
+    "main.819ad7a6.js.map": "/smapleOTF/static/js/main.819ad7a6.js.map",
     "662.1f4e40c4.chunk.css.map": "/smapleOTF/static/css/662.1f4e40c4.chunk.css.map",
     "662.751d7976.chunk.js.map": "/smapleOTF/static/js/662.751d7976.chunk.js.map",
     "923.1f4e40c4.chunk.css.map": "/smapleOTF/static/css/923.1f4e40c4.chunk.css.map",
@@ -531,6 +531,6 @@
   },
   "entrypoints": [
     "static/css/main.c5b616b2.css",
-    "static/js/main.21ed81af.js"
+    "static/js/main.819ad7a6.js"
   ]
 }
