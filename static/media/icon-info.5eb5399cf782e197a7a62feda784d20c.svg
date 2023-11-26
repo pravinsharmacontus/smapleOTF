@@ -1,0 +1,14 @@
+
+<svg id="Component_713_657" data-name="Component 713 – 657" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectangle_8627" data-name="Rectangle 8627" width="16" height="16" fill="none"/>
+  <g id="Group_24469" data-name="Group 24469" transform="translate(1.895 1.895)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(0.105 0.105)" fill="none" stroke="currentColor" stroke-width="1.4">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="6.7" fill="none"/>
+    </g>
+    <g id="Icon_ionic-md-information" data-name="Icon ionic-md-information" transform="translate(-11.207 -8.077)">
+      <path id="Path_58419" data-name="Path 58419" d="M16.313,16.523h1.816v5.184H16.313Z" transform="translate(0 -3.085)" fill="currentColor"/>
+      <path id="Path_58420" data-name="Path 58420" d="M16.313,9.844h1.816V11.66H16.313Z" fill="currentColor"/>
+    </g>
+  </g>
+</svg>

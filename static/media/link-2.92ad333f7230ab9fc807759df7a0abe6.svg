@@ -1,0 +1,16 @@
+
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>link-2-svg</title>
+	<style>
+		.s0 { fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s1 { fill: none } 
+	</style>
+	<g id="Link">
+		<g id="Group_33748">
+			<path id="Path_40206" class="s0" d="m21.8 16.6v1.3q0.1 1.1-0.2 2.1-0.4 1.1-1.1 1.8-0.8 0.8-1.8 1.2-1 0.4-2.1 0.4h-9.1q-1.1 0-2.1-0.4-1-0.4-1.7-1.2-0.8-0.7-1.1-1.8-0.4-1-0.3-2.1v-8.5q-0.1-1.1 0.3-2.1 0.3-1.1 1.1-1.8 0.7-0.8 1.7-1.2 1-0.4 2.1-0.4h1.6"/>
+			<path id="Path_40283" class="s0" d="m21.8 3.9l-11.6 11.6"/>
+			<path id="Path_40284" class="s0" d="m14 3.9h7.8v7.8"/>
+		</g>
+		<path id="Rectangle_13905" class="s1" d="m0 0h24v24h-24z"/>
+	</g>
+</svg>

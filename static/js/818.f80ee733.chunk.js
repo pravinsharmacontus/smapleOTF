@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkonthefly=self.webpackChunkonthefly||[]).push([[818],{10818:(e,t,l)=>{l.r(t),l.d(t,{default:()=>r});var h=l(72791),n=l(80184);const r=function(){return(0,n.jsx)(h.Fragment,{children:(0,n.jsx)("div",{style:{width:"100%",height:"100%"},children:(0,n.jsx)("iframe",{style:{border:"none"},width:"560",height:"315",src:"http://localhost:3000/embeded",allowFullScreen:!0,title:"qwe"})})})}}}]);
+//# sourceMappingURL=818.f80ee733.chunk.js.map

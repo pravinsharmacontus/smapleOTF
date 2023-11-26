@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g transform="translate(-1203 -127)">
+        <g transform="translate(89.001 65)">
+            <g  fill="none" stroke="currentColor" transform="translate(1113.999 62)">
+                <rect stroke="none" width="30" height="30" rx="4" />
+                <rect fill="none" x="0.5" y="0.5" width="29" height="29" rx="3.5" />
+            </g>
+        </g>
+        <g transform="translate(1212.167 136)"  fill="#363a4a">
+            <rect width="2.888" height="2.888" transform="translate(4.332 4.332)" />
+            <rect width="2.888" height="2.888" />
+            <rect width="2.888" height="2.888" transform="translate(4.332 8.664)" />
+            <rect width="2.888" height="2.888" transform="translate(0 4.332)" />
+            <rect width="2.888" height="2.888" transform="translate(0 8.664)" />
+            <rect width="2.888" height="2.888" transform="translate(8.664)" />
+            <rect width="2.888" height="2.888" transform="translate(4.332)" />
+            <rect width="2.888" height="2.888" transform="translate(8.664 4.332)" />
+            <rect width="2.888" height="2.888" transform="translate(8.664 8.664)" />
+        </g>
+    </g>
+</svg>
