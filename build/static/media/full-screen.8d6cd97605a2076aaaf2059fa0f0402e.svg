@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="icon_exitfullscreen" data-name="icon/exitfullscreen" transform="translate(12375 -349)">
+    <rect fill="#000" id="Rectangle_24106" data-name="Rectangle 24106" width="32" height="32" rx="4" transform="translate(-12375 349)"/>
+    <path id="Minimize_1_" d="M35.167,23.5H31A2.5,2.5,0,0,1,28.5,21V16.833a.833.833,0,0,1,1.667,0V21a.834.834,0,0,0,.833.833h4.167a.833.833,0,0,1,0,1.667ZM23.5,21V16.833a.833.833,0,0,0-1.667,0V21a.834.834,0,0,1-.833.833H16.833a.833.833,0,0,0,0,1.667H21A2.5,2.5,0,0,0,23.5,21Zm6.667,14.167V31A.834.834,0,0,1,31,30.167h4.167a.833.833,0,0,0,0-1.667H31A2.5,2.5,0,0,0,28.5,31v4.167a.833.833,0,0,0,1.667,0Zm-6.667,0V31A2.5,2.5,0,0,0,21,28.5H16.833a.833.833,0,0,0,0,1.667H21a.834.834,0,0,1,.833.833v4.167a.833.833,0,0,0,1.667,0Z" transform="translate(-12385 339)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+  </g>
+</svg>

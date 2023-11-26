@@ -1,0 +1,65 @@
+@import '../../../../assets/scss/variables.scss';
+.broadcasting_initiate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height: 100%;
+    flex-direction: column; 
+    background-color:$white_one;
+    padding: 0 20px;
+    .icon_animate {
+
+        @media(min-width:1599px){
+            width: 200px;
+            height: 200px;
+        }
+        @media(min-width:1600px){
+            width: 300px;
+            height: 300px;
+        }
+       
+    } 
+    .heading { 
+        letter-spacing: 0px;
+        color: $black_one;
+        margin-bottom: 8px;
+        text-align: center;
+        font: normal normal 26px/32px var(--bold);
+        @media(min-width:1600px){
+            font: normal normal 30px/45px var(--bold);
+        }
+    }
+
+    .desc {
+        font: normal normal 18px/26px var(--regular);
+        letter-spacing: 0px;
+        color: $black_one;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    .action { 
+        margin-top: 0px;
+        width: 155px;
+        background: $button_color;
+        border-radius: 4px;
+        font: normal normal 16px/20px var(--semibold);
+        letter-spacing: 0px;
+        color: $white_one;
+        transition: 150ms ease-in-out;
+        flex-shrink: 0;
+        @media(max-width:1599px){
+            height: 38px;
+    
+        }            
+        
+        @media(min-width:1600px){
+            height: 43px;
+        
+        }
+        &:hover, &:focus-visible{
+            background:$action_hover;
+        }
+    }
+}

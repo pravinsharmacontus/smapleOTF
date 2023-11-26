@@ -1,0 +1,1 @@
+export const MF_GROUP_DETAILS = "MF_GROUP_DETAILS";

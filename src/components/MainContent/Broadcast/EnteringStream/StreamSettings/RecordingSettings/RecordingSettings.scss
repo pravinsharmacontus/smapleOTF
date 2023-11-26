@@ -1,0 +1,19 @@
+@import '../../../../../../assets/scss/variables.scss';
+
+.recording_settings_wraper {
+    .recording_settings_body {
+        h3 {
+            font: normal normal 14px/17px var(--semibold);
+            letter-spacing: 0px;
+            color:$black_one;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font: normal normal 14px/17px var(--regular);
+            letter-spacing: 0px;
+            color: $grey_one;
+            margin-bottom: 24px;
+        }
+    }
+}

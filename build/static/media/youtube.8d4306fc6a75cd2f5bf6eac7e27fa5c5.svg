@@ -1,0 +1,8 @@
+<svg id="youtube" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+  <g id="Color">
+    <g id="_02.YouTube" data-name="02.YouTube">
+      <circle id="Background" cx="39" cy="39" r="39" fill="red"/>
+      <path id="Icon" d="M69.195,47.41H43.742A7.742,7.742,0,0,0,36,55.157V68.922a7.742,7.742,0,0,0,7.742,7.747H69.195a7.742,7.742,0,0,0,7.742-7.747V55.157A7.742,7.742,0,0,0,69.195,47.41Zm-18.12,20.9V55.766L61.862,62.04Z" transform="translate(-17.578 -23.15)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

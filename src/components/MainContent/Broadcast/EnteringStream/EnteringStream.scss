@@ -1,0 +1,414 @@
+@import '../../../../assets/scss/variables.scss';
+
+.entering_stream_wraper {
+    position: relative;
+    min-height: 100%;
+    background-color: $white_one;
+
+    @media(max-width:767px) {
+        padding: 20px 0px;
+
+    }
+
+    .entering_stream_inner {
+        max-width: 576px;
+        margin: 0 auto;
+
+        @media(max-width:1599px) {
+            padding: 30px 20px 20px 20px;
+        }
+
+
+        @media(min-width:1600px) {
+            padding: 40px 20px;
+        }
+
+
+        .entering_stream_head {
+            text-align: center;
+
+            @media(max-width:1599px) {
+                margin-bottom: 30px;
+            }
+
+            @media(min-width:1600px) {
+                margin-bottom: 68px;
+            }
+
+            h1 {
+
+                letter-spacing: 0px;
+                color: $black_one;
+
+                @media(max-width:1599px) {
+                    font: normal normal 26px/38px var(--bold);
+                }
+
+                @media(min-width:1600px) {
+                    font: normal normal 48px/48px var(--bold);
+                }
+            }
+        }
+
+        .entering_stream_body {
+            .entering_stream_customize {
+                display: flex;
+                margin: 0 auto;
+                width: 100%;
+                border-radius: 13px;
+                overflow: hidden;
+                border: 2px solid rgb(230, 230, 230);
+
+                @media(max-width:1599px) {
+                    margin-bottom: 28px;
+                    max-width: 380px;
+                    height: 230px;
+                }
+
+                @media(min-width:1600px) {
+                    margin-bottom: 42px;
+                    max-width: 462px;
+                    height: 256px;
+                }
+
+            }
+
+            .entering_stream_customize_mic {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: flex-end;
+                width: 74px;
+                background: $white_2;
+                padding: 12px 16px;
+                text-align: center;
+
+                .mic_volume {
+                    height: 89px;
+                    width: 20px;
+                    border: 1px solid $mic_volume;
+                    border-radius: 4px;
+                    margin-top: 4px;
+                    margin-bottom: 6px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                    }
+
+                    &.mic_volume_off {
+                        &::before {
+                            animation: none !important;
+                        }
+                    }
+                }
+
+                .mic_0 {
+                    &::before {
+                        animation: mic_0 900ms alternate-reverse;
+                    }
+                }
+
+                .mic_10 {
+                    &::before {
+                        animation: mic_10 900ms alternate;
+
+                    }
+                }
+
+                .mic_30 {
+                    &::before {
+                        animation: mic_30 900ms alternate;
+                    }
+                }
+
+                .mic_60 {
+                    &::before {
+                        animation: mic_60 900ms alternate;
+                    }
+                }
+
+                .mic_90 {
+                    &::before {
+                        animation: mic_90 900ms alternate;
+                    }
+                }
+
+                @keyframes mic_10 {
+                    0% {
+                        height: 30%;
+                        background-color: $mic_on;
+                    }
+
+                    100% {
+                        height: 60%;
+                        background-color: $mic_on;
+                    }
+                }
+
+                @keyframes mic_10 {
+                    0% {
+                        height: 0%;
+                        background-color: $mic_on;
+                    }
+
+                    100% {
+                        height: 0%;
+                        background-color: $mic_on;
+                    }
+                }
+
+
+                @keyframes mic_30 {
+                    0% {
+                        height: 10%;
+                        background-color: $mic_on;
+                    }
+
+                    100% {
+                        height: 30%;
+                        background-color: $mic_on;
+                    }
+                }
+
+                @keyframes mic_60 {
+                    0% {
+                        height: 30%;
+                        background-color: $mic_on;
+                    }
+
+                    100% {
+                        height: 60%;
+                        background-color: $mic_on;
+                    }
+                }
+
+                @keyframes mic_90 {
+                    0% {
+                        height: 60%;
+                        background-color: $mic_on;
+                    }
+
+                    100% {
+                        height: 90%;
+                        background-color: $mic_on;
+                    }
+                }
+
+                .mic_off {
+                    font: normal normal 12px/15px var(--regular);
+                    letter-spacing: 0px;
+                    color: $mic_off;
+                }
+
+                .mic_on {
+                    font: normal normal 12px/15px var(--regular);
+                    letter-spacing: 0px;
+                    color: $mic_on;
+                }
+            }
+
+            .entering_stream_customize_video {
+                width: calc(100% - 74px);
+                background-color: $black_5;
+            }
+
+            .entering_stream_video {
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+
+                video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    background: #434343;
+                }
+
+                img {
+                    width: 117px;
+                    height: 117px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+
+        .entering_stream_note {
+            background: $white_4;
+            border: 1px solid $stream_note_border;
+            border-radius: 5px;
+            min-height: 48px;
+            margin-bottom: 28px;
+            padding: 10px 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 462px;
+            margin-left: auto;
+            margin-right: auto;
+
+            @media(max-width:1599px) {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 390px;
+                min-height: 38px;
+
+            }
+
+            strong {
+                font: normal normal 14px/20px var(--medium);
+                letter-spacing: 0px;
+                color: $blue_one;
+                margin-right: 4px;
+                display: inline-block;
+            }
+
+            p {
+                display: inline-block;
+                font: normal normal 14px/20px var(--regular);
+                letter-spacing: 0px;
+                color: $balck_4;
+            }
+        }
+    }
+
+    .entering_stream_actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .broadcast_video_btn_group {
+
+            @media(max-width:1599px) {
+                width: 300px;
+                min-height: 88px;
+                display: flex;
+                align-items: center;
+            }
+            @media(max-width:1365px) {
+                .action_feild {
+                    height: auto;
+                }
+                min-height: 60px;
+            }
+            @media(min-width:1600px) {
+                width: 536px;
+                padding: 10px;
+                margin-top: 2px;
+                margin-bottom: 22px;
+            }
+        }
+
+        .entering_stream_enter {
+            margin-top: 28px;
+            width: 153px;
+            background: $button_color;
+            border-radius: 6px;
+            font: normal normal 16px/20px var(--semibold);
+            letter-spacing: 0px;
+            color: $white_one;
+            transition: 150ms ease-in-out;
+
+            @media(max-width:1599px) {
+                height: 40px;
+
+            }
+
+            @media(min-width:1600px) {
+                height: 52px;
+            }
+
+            &:hover, &:focus-visible {
+                background: $button_hover;
+                transition: 150ms ease-in-out;
+            }
+        }
+
+        .loading_text {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: $grey_2;
+            font: normal normal 16px/17px var(--regular);
+        }
+
+        .icon_loader_wraper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .icon_loader {
+                
+                @media(max-width:1599px){
+                    width: 200px;
+                    height: 100px;
+                }            
+                
+                @media(min-width:1600px){
+                    width: 300px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}
+
+.action_back_btn {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    font: normal normal 16px/17px var(--regular);
+    letter-spacing: 0px;
+    color: #1367F2;
+    border: 1px solid transparent;
+
+    svg {
+        margin-right: 6px;
+    }
+
+    &:hover, &:focus-visible {
+        color: $blue_2;
+        text-decoration: underline;
+    }
+    @media screen and (max-width: 767px) {
+        left: 15px;
+        top: 15px;
+    }
+}
+
+.video_res_loader{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #434343;
+    svg{
+        width: 80px;
+        height: 80px;
+    }
+    .loaderSvg{
+        color:#fff;
+    }
+}

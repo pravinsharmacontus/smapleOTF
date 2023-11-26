@@ -1,0 +1,46 @@
+.common_action_popup {
+    .Action_popup_header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+
+        svg {
+            width: 40px;
+            height: 40px;
+            margin-right: 16px;
+        }
+
+        h4 {
+            font: normal normal 26px/32px var(--bold);
+            letter-spacing: 0px;
+            color: #000000;
+        }
+    }
+
+    p {
+        max-width: 312px;
+        text-align: left;
+        color: #595959;
+
+        strong {
+            font: normal normal  16px/28px var(--semibold);
+            letter-spacing: 0px;
+            color: #000000;
+        }
+    }
+    .danger.icon{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 10, 55,.13);
+        margin-right: 16px;
+        border-radius: 50%;
+        svg{
+            width: 24px;
+            height: 24px;
+            margin: 0;
+        }
+    }
+}

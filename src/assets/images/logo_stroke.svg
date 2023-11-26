@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="334.564" height="268.324" viewBox="0 0 334.564 268.324">
+  <defs>
+    <filter id="Path_337" x="0" y="0" width="334.564" height="230.713" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mirrorfly_logo_stroke" data-name="Mirrorfly logo stroke" transform="translate(15.75 15.852)" opacity="0.4">
+    <path id="Path_335" data-name="Path 335" d="M277.266,2152.26l66.1,51.319a7.175,7.175,0,0,0,11.571-5.669V2152.28" transform="translate(-268.693 -1953.461)" fill="none" stroke="#0dcea6" stroke-width="1.5"/>
+    <path id="Path_336" data-name="Path 336" d="M569.2,2040.022v150.372a9.237,9.237,0,0,1-9.551,8.886H312.9c-9.544,0-13.183-11.585-5.15-16.377l249.791-148.829a7.611,7.611,0,0,1,11.657,5.947Z" transform="translate(-266.264 -2000.492)" fill="none" stroke="#ffd119" stroke-width="1.5"/>
+    <g transform="matrix(1, 0, 0, 1, -15.75, -15.85)" filter="url(#Path_337)">
+      <path id="Path_337-2" data-name="Path 337" d="M276,2014.461v180a10.763,10.763,0,0,0,10.888,10.635H568.177a10.6,10.6,0,0,0,5.87-19.6L289.29,2007.345a8.648,8.648,0,0,0-13.29,7.115Z" transform="translate(-260.25 -1990.14)" fill="none" stroke="#ff0935" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

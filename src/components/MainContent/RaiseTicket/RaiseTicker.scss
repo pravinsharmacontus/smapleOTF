@@ -1,0 +1,287 @@
+.ContentWrapperraise {
+    padding: 2.5rem var(--rightpartpad);
+    scroll-padding-right: 6px;
+    position: relative;
+    display: flex;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: calc(100% - 70px);
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    .PopupFormBody.setting.raiseticket {
+        form {
+            padding: 60px 60px !important;
+        }
+
+        .grid {
+            padding: 0;
+        }
+        .leftSec{
+            padding-bottom: 20px;
+        }
+        .grid-9 {
+            margin-bottom: 1.875rem;
+
+            @media only screen and (max-width: 1366px) {
+                padding-left: 20px !important;
+            }
+            @media only screen and (min-width: 1366px) {
+                padding-left: var(--rightgridleftspace);
+            }
+        }
+    }
+
+    .common-input-wrapper {
+        margin-top: 0 !important;
+        position: relative;
+        margin-bottom: 16px !important;
+        max-width: 31.5rem;
+    }
+}
+
+.raiseticket {
+    flex: 1 1 100% !important;
+    overflow: visible !important;
+
+    .raiseticketInner {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        flex: 1 1 100%;
+
+        &.success {
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 2px 3px #00000014;
+            border: 1px solid #e1e1e1;
+        }
+    }
+
+    .RaiseTicketForm {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 3px #00000014;
+        border: 1px solid #e1e1e1;
+        margin: 0 auto !important;
+        width: 100%;
+        height: 100%;
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 6.6875rem;
+        height: auto;
+        max-height: 10rem;
+        line-height: 140%;
+    }
+
+    textarea+.placeholder {
+        top: 1px !important;
+        left: 18px !important;
+        background: #fff;
+        right: 1rem;
+        padding-top: 0.313rem;
+        padding-bottom: 0.125rem;
+    }
+
+    .DropSelect {
+        border: 0.063rem solid #BEC3CB;
+        border-radius: 0.25rem;
+        width: 100%;
+        min-width: 17.5rem;
+        height: 2.875rem;
+        font-size: 0.75rem;
+        line-height: 100%;
+        font-family: var(--heavy);
+        letter-spacing: 0.21px;
+        color: #000000;
+
+        +div {
+            margin-left: 0px !important;
+            top: 100% !important;
+            left: 0 !important;
+            right: 0 !important;
+            opacity: 1;
+            visibility: visible;
+
+            ul {
+                overflow: hidden;
+                box-shadow: 0px 3px 6px #00000029;
+                border: 1px solid #C8C8C8;
+                border-radius: 8px;
+
+                li {
+                    padding: 0.313rem 1.125rem !important;
+                }
+            }
+        }
+
+        max-width: 100%;
+
+        >.inputTxt {
+            width: 100%;
+            font-size: 0.688rem;
+            line-height: 100%;
+            font-family: var(--heavy);
+            letter-spacing: 0.21px;
+            color: #000000;
+        }
+
+        span {
+            padding: 0;
+            overflow: visible;
+        }
+
+        .dropIcon {
+            margin: 0 !important;
+        }
+
+        ul {
+            overflow: hidden;
+
+            li {
+                padding: 0.313rem 1.125rem !important;
+            }
+        }
+
+        .placeholder {
+            position: absolute;
+            font-size: 0.75rem;
+            line-height: 100%;
+            font-family: var(--regular);
+            letter-spacing: 0.17px;
+            color: #757575;
+            top: 0.1rem !important;
+            left: 1.125rem;
+            background: #fff;
+            right: 0.063rem;
+            padding-top: 0.313rem;
+            padding-bottom: 0.125rem;
+        }
+
+        .DropOpen {
+            opacity: 1;
+            visibility: visible;
+            right: 0;
+            left: 0;
+            margin-left: 0;
+            top: 102%;
+        }
+
+        &.open {
+            .dropIcon {
+                transform: rotate(180deg);
+                transform-origin: center center;
+
+                svg {
+                    fill: #19a0f4;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 769px) {
+        .wrapperSec {
+            display: flex;
+            justify-content: center;
+
+            .leftSec {
+                width: 33%;
+                padding-top: 1.875rem;
+                min-width: 320px;
+            }
+
+            .rightSec {
+                padding-left: var(--rightgridleftspace);
+                flex: 0 1 auto;
+                width: 100%;
+            }
+
+            .grp-input {
+                margin-right: 0 !important;
+            }
+        }
+
+        .RaiseTicketForm {
+            padding: 2.5rem !important;
+        }
+    }
+
+}
+
+.customersWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:1240px) {
+    .ContentWrapperraise .PopupFormBody.setting.raiseticket form {
+        padding: 0 !important;
+
+        .grid {
+            flex-direction: column;
+            padding: 1.25rem !important;
+
+            .grid-9 {
+                padding-left: 0 !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:912px) {
+    .ContentWrapperraise {
+        padding: 0;
+
+        .PopupFormBody.setting.raiseticket {
+            .raiseticketInner {
+                padding: 0;
+
+                form {
+                    padding: 1rem !important;
+
+                    .grid {
+                        flex-direction: column;
+                        padding: 0 !important;
+
+                        .gridCustomWidth {
+                            width: auto;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .grid-9 {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapperSec {
+        flex-wrap: wrap;
+
+        .leftSec {
+            padding: 0 1.25rem;
+            width: 100%;
+        }
+
+        .rightSec {
+            padding: 0 1.25rem;
+            flex: 1 1 100%;
+        }
+
+        .grp-input {
+            margin-right: 0 !important;
+        }
+    }
+
+    .RaiseTicketForm {
+        padding: 20px 10px !important;
+    }
+}

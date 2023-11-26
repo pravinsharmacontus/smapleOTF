@@ -1,0 +1,940 @@
+.LoginWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    overflow-y: auto;
+    flex-direction: column;
+    .Container {
+        max-width: 100%;
+        margin: 0px auto;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+        .LeftSection {
+            width: 680px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background: #1E2439 no-repeat;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+
+            @media screen and (min-width: 1920px) {
+                padding: 150px 95px 20px 95px;
+            }
+
+            .branding-logo {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .logo {
+                margin: initial;
+                display: inherit;
+                max-width: 272px;
+                height: 43px;
+            }
+
+            h1 {
+                font: normal normal 1.375rem/1.6875rem var(--bold);
+                color: var(--white);
+                margin-top: 2.5625rem;
+            }
+
+            h2 {
+                font: normal normal 1.125rem/1.375rem var(--bold);
+                color: var(--white);
+                margin-top: 0.6875rem;
+            }
+
+            .Steps {
+                margin: 1.6563rem 0;
+
+                p {
+                    text-align: left;
+                    font: normal normal 1.0625rem/1.1875rem var(--regular);
+                    color: #BCBCBC;
+                    display: flex;
+                    margin-bottom: 0.9844rem;
+                    align-items: center;
+
+                    svg {
+                        margin-right: 0.75em;
+                        width: 22.5px;
+                        height: 22.5px;
+                    }
+
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+
+            p.Txt {
+                font: normal normal 1.125rem/1.5rem var(--regular);
+                color: #fff;
+                margin: 0;
+                text-align: center;
+                opacity: 0.86;
+            }
+
+            h5 {
+                font: normal normal 1.25rem/1.5rem var(--bold);
+                color: var(--white);
+                margin: 0px 0 15px 0;
+                text-align: center;
+
+                @media screen and (min-width: 1600px) {
+                    margin-top: auto;
+                }
+            }
+
+            .Brandinn {
+                text-align: center;
+
+                .Brand {
+                    height: auto;
+                    margin-top: 4px;
+                }
+            }
+
+            .copyright {
+                font: normal normal 0.875rem/1.1875rem var(--regular);
+                color: #96A0B6;
+                margin: 48px 0 6px 0;
+                text-align: center;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .LoginInner {
+        display: flex;
+        flex:1 1 auto;
+        width: 50%;
+        max-width: 32.5em;
+        margin: 0px auto;
+
+        .bgWrapper {
+            flex:1 1 50%;
+            max-width: 50%;
+
+            img {
+                object-fit: cover;
+                object-position: right;
+            }
+        }
+
+        .formWrapper {
+            display: flex;
+            flex-direction:column;
+            flex:1 1 50%;
+
+            form {
+                flex:1 1 auto;
+                display: flex; align-items:center; justify-content:flex-start;
+                
+                flex-direction:column;
+
+                .Header {
+                   display: flex; align-items: center; justify-content: center;
+                    flex-direction:column;
+
+                    .logo {
+                        object-fit: contain;
+                        object-position: center;
+                        width: auto;
+                        height: 40px;
+                        margin: 115px 0 40px 0;
+                        @media screen and (max-width: 1439.5px) {
+                            margin-top: 50px;
+                        }
+                        @media screen and (max-width: 1024px) {
+                            margin: 40px 0
+                        }
+                        
+                    }
+                }
+
+                .FormContainer {
+                    padding: 2rem 2.5rem 2.5rem 2.5rem;
+                    max-width: 32.5rem;
+                    width: 100%;
+                    height: 100%;
+                    background: #fff;
+
+                    h2 {
+                        text-align: center;
+                        font: normal normal 40px/45px var(--bold);
+                        color: #070521;
+                        margin-bottom: 12px;
+                    }
+
+                    h3 {
+                        text-align: center;
+                        font: normal normal 1rem/1.125rem var(--regular);
+                        letter-spacing: 0;
+                        color: #595959;
+                        margin-bottom: 30px;
+                    }
+
+                    .grp-input {
+                        margin-top: 2.5rem;
+                    }
+
+                    .input {
+                        // margin: 0.438rem 0 1rem 0;
+                        position: relative;
+
+                        input {
+                            width: 100%;
+                            border: 1px solid #7E8299;
+                            font: normal normal 1rem/1.25rem var(--semibold);
+                            letter-spacing: 0.3px;
+                            color: #000;
+                            box-shadow: none !important;
+                            padding-left: 20px;
+                            max-width: 100%;
+                            background: #fff;
+                            height: 50px;
+
+                            &:not(.outline) {
+                                border: 1px solid #C9C9C9;
+                                border-radius: 4px;
+                                padding: 0.625rem;
+                              }
+
+                            &::-webkit-input-placeholder {
+                                color: #7E8299;
+                                font: normal normal 16px/18px var(--regular);
+                                letter-spacing: 0px;
+                            }
+
+                            &::-moz-placeholder {
+                                color: #7E8299;
+                                font: normal normal 16px/18px var(--regular);
+                                letter-spacing: 0px;
+                            }
+
+                            &:-ms-input-placeholder {
+                                color: #7E8299;
+                                font: normal normal 16px/18px var(--regular);
+                                letter-spacing: 0px;
+                            }
+
+                            &::placeholder {
+                                color: #7E8299;
+                                font: normal normal 16px/18px var(--regular);
+                                letter-spacing: 0px;
+                            }
+                            &.outline {
+                                padding: 10px;
+                                border: none;
+                                border-radius: 0;
+                                border-bottom: 1px solid #C9C9C9;
+
+                                &:focus-visible{
+                                    border-color: #1eac8f;
+                                  }
+                              }
+                        }
+
+                        .Icon {
+                            position: absolute;
+                            bottom: 12px;
+                            left: 12px;
+                            width: auto;
+                            color: #414546;
+                        }
+
+                        .hideView {
+                            width: 1.25rem;
+                            height: 1.25rem;
+                            top: 50%;
+                            position: absolute;
+                            right: 0.625rem;
+                            cursor: pointer;
+                            margin-top: -10px;
+
+                            .IconPasswordHide {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                color: #333;
+
+                                svg {
+                                    width: 1.25rem;
+                                    height: 1.25rem;
+                                }
+                            }
+
+                            .IconPasswordView {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                color: #333;
+
+                                svg {
+                                    width: 1.25rem;
+                                    height: 1.25rem;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .Fpassword {
+                        margin-left: auto;
+                        cursor: pointer;
+                        display: inline-block;
+                        transition: 200ms linear;
+                        font: normal normal 0.875rem/1.0625rem var(--regular);
+                        letter-spacing: 0.0169em;
+                        color: #105EF1;
+                        margin-top: 1rem;
+
+                        &:hover {
+                            transition: 200ms linear;
+                        }
+                    }
+
+                    .Btn-lg {
+                        text-align: center;
+                        width: 100%;
+                        height: 3.0625rem;
+                        user-select: none;
+                        cursor: pointer;
+                        display: table;
+                        font: normal normal 18px/3.0625rem var(--semibold);
+                        letter-spacing: 0.035rem;
+                        background: var(--secondary);
+                        border-radius: 4px;
+                        color: #ffffff;
+                        margin: 1.75rem auto 0;
+                        transition: 300ms linear;
+                        box-shadow: 0rem 0.3125rem 2.625rem #0000001F;
+                        border: 1px solid var(--secondary);
+
+                        &:hover {
+                            background: var(--white);
+                            transition: 300ms linear;
+                            color: var(--secondary);
+                        }
+
+                        &.Invalid {
+                            background: #1AA0F4 !important;
+                            cursor: default;
+
+                            &:hover {
+                                background: #1AA0F4 !important;
+                                cursor: not-allowed;
+                            }
+                        }
+
+                        &:disabled {
+                            background: #DCDCDC;
+                            border: #DCDCDC;
+                            color: #6C6F84;
+                            cursor: auto;
+                        }
+                    }
+
+                    input[type="password"],input.password{
+                            padding-right: 35px !important;
+                    }
+                }
+            }
+
+            .loginFooter {
+                margin: 0 -1.25rem -0.625rem;
+                background-color: transparent;
+            }
+
+            &.FPasswordWrapper {
+                .signin {
+                    user-select: none;
+                    margin-top: 1.5rem;
+                    text-align: center;
+                    font: normal normal normal 0.75rem/1rem var(--regular);
+                    letter-spacing: 0.0144rem;
+                    color: #A3A3A3;
+
+                    span {
+                        cursor: pointer;
+                        text-decoration: underline;
+                        font: normal normal 12px/19px var(--heavy);
+                        letter-spacing: 0rem;
+                        color: #105EF1;
+                        margin-left: 0.5rem;
+                    }
+                }
+
+                .Btn-lg {
+                    margin-top: 2.5rem !important;
+                }
+
+                input {
+                    padding-left: 44px;
+                }
+            }
+        }
+    }
+
+    // error message
+    .error {
+        position: relative;
+
+        input {
+            border-color: #f25468 !important;
+
+            // background: rgba(242, 84, 104, 0.1) !important;
+            &::-webkit-input-placeholder {
+                color: rgba(242, 84, 104, 0.5);
+            }
+
+            &::-moz-placeholder {
+                color: rgba(242, 84, 104, 0.5);
+            }
+
+            &:-ms-input-placeholder {
+                color: rgba(242, 84, 104, 0.5);
+            }
+
+            &::-ms-input-placeholder {
+                color: rgba(242, 84, 104, 0.5);
+            }
+
+            &::placeholder {
+                color: rgba(242, 84, 104, 0.5);
+            }
+        }
+
+        .errorMessage {
+            color: #f25468;
+            position: relative;
+            top: 100%;
+            left: 0;
+            font-size: 0.75rem;
+            line-height: 100%;
+            font-family: var(--regular);
+        }
+
+        .errorIconClose {
+            right: 1.625rem;
+            position: absolute;
+            top: calc(50%);
+            transform: translateY(calc(-50%));
+            color: #f25468;
+            cursor: pointer;
+        }
+
+        &.grp-input {
+            .errorMessage {
+                left: 0rem;
+                font-size: 0.563rem;
+            }
+        }
+    }
+}
+
+
+.password-format {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(100% + 10px);
+    min-width: 306px;
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 16px #00000033;
+    border:0.5px solid #0043E3;
+    font: normal normal 14px/18px var(--regular);
+    letter-spacing: 0px;
+    color: rgba(97, 97, 97, .80);
+    z-index: 1;
+    > svg {
+        position: absolute;
+        width: 15px;
+        height: 7px;
+        left: 16px;
+        z-index: 2;
+        top: 100%;
+        .DateInput_fangStroke {
+            stroke: #f1f1f1;
+        }
+    }
+    h3{
+        font: normal normal 12px/20px var(--medium) !important;
+        letter-spacing: 0px !important;
+        color: #4F5579 !important;
+        text-transform: uppercase;
+        margin-bottom: 6px !important;
+        text-align: left !important;
+        }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li{
+            min-width: 50%;
+            align-items: center;
+            white-space: nowrap;
+            display: inline-flex;
+            color: #4F5579;
+            margin-bottom: 6px;
+            padding-right: 3px;
+            font: normal normal 12px/16px var(--regular);
+            letter-spacing: 0px;
+            @media screen and (max-width : 992px) {
+                min-width: 100%;
+            }
+            &.passed{
+                color: #279C04;
+            }
+            span{
+                width: 6px;
+                height: 6px;
+                flex-shrink: 0;
+                background-color:currentColor;
+                border-radius: 50%;
+                margin-right: 7px;
+            }
+            svg{
+                fill: currentColor;
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+.password input:focus ~ .password-format, .password input:active ~ .password-format{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.password-hint{
+    color: #7E8299;
+    font: normal normal 12px/15px var(--regular);
+    padding: 0.625rem 0 0 0.625rem;
+}
+
+
+.FooterWrapper.loginFooter {
+    background-color: transparent;
+    border: none;
+    font: normal normal 0.875rem/0.9375rem var(--regular);
+    margin-bottom: 19px;
+    padding: 0;
+    color: #071318;
+    letter-spacing: 0.28px;
+}
+
+// Password tooltips start
+.inputTips {
+    position: absolute;
+    padding-left: 1.625rem;
+    padding-top: 0.375rem;
+    z-index: 100;
+
+    .bottomLeft {
+        top: 100%;
+        left: 0;
+    }
+
+    .tipContainer {
+        position: relative;
+        background: #f2f2f2;
+        width: 18.563rem;
+        height: 3.063rem;
+        border-radius: 0.25rem;
+        padding: 0.563rem 0.625rem 0.625rem 0.625rem;
+
+        .triangle-up {
+            position: absolute;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 7px solid #f2f2f2;
+            width: 0;
+            height: 0;
+
+            &.topLeft {
+                left: 0.625rem;
+                bottom: 100%;
+            }
+        }
+
+        .message {
+            font: 0.625rem/1rem var(--regular);
+            color: #242424;
+        }
+    }
+}
+
+.signinInfo {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    a {
+        font: normal normal 1rem/1.125rem var(--bold);
+        letter-spacing: 0.0169rem;
+        color: #105EF1;
+        transition: 200ms linear;
+
+        &:hover {
+            text-decoration: underline;
+            transition: 200ms linear;
+        }
+    }
+}
+
+// Password tooltips End
+.FPasswordForm {
+    height: auto !important;
+
+    .grp-input {
+        margin-top: 1.5rem !important;
+    }
+
+    .input input {
+        max-width: 100% !important;
+    }
+
+    .password-info {
+        margin-top: 0;
+        padding-top: 0.8125rem !important;
+        font-size: 14px;
+        line-height: 1.0938rem;
+        color: #7E8299;
+        letter-spacing: 0.0169rem;
+    }
+
+    .error+.password-info {
+        margin-top: 0;
+    }
+
+    .hideView {
+        margin-top: -7px;
+    }
+
+    // &.resetpass{
+    //     .error .errorMessage{
+    //         position: relative;
+    //         top: 0;
+    //         margin: 0;
+    //         padding: 0;
+    //     }
+    // }
+}
+
+.LoginWrapper.Custom {
+    .LoginInner {
+        .formWrapper {
+            form {
+                .FormContainer {
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    max-width: 420px;
+
+                    .grp-input {
+                        margin-top: 0;
+                        width: 100%;
+
+                        &.password {
+                            margin-top: 26px;
+                        }
+                    }
+
+                    .input {
+                        input {
+                            max-width: 100%;
+                        }
+
+                        .Icon {
+                            position: absolute;
+                            bottom: 12px;
+                            left: 12px;
+                            width: auto;
+                            display: none;
+                        }
+                    }
+
+                    .Btn-lg {
+                        max-width: 100%;
+                        margin-top: 20px;
+                        width: 100%;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0;
+                        flex-shrink: 0;
+                        .react-ripples {
+                            width: 100%;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .signinInfo {
+        font: normal normal 1rem/1.1875rem var(--regular);
+        letter-spacing: 0.3px;
+        color: #595959;
+        margin-top: 24px;
+        a {
+            font: normal normal 1rem/1.125rem var(--bold);
+            padding-left: 0.5em;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1919.5px) and (min-width: 1440px) {
+    .LoginWrapper .Container .LeftSection {
+        padding: 40px 95px 28px 95px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .LoginWrapper.Custom {
+        .Container {
+
+            .LeftSection,
+            .RegistrationForm .right-side {
+                p.Txt {
+                    margin-bottom: 50px;
+                }
+
+                .copyright {
+                    margin: 15px 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1439.5px) {
+    .LoginWrapper .Container .LeftSection {
+        padding: 30px 95px 20px 95px;
+
+        h1 {
+            margin-top: 24px;
+        }
+
+        .Steps {
+            margin: 24px 0;
+        }
+    }
+
+    .LoginWrapper.Custom {
+        .Container {
+            .LeftSection p.Txt {
+                margin-bottom: 52px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1365.5px) {
+    .LoginWrapper .Container .LeftSection {
+        padding: 30px 70px 20px !important;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .LoginWrapper .Container .LeftSection {
+        width: 100%;
+        max-width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .LoginWrapper .Container {
+
+        .LeftSection {
+            display: none;
+        }
+
+        .mobileLogo .logo {
+            display: block;
+        }
+
+        .RegistrationForm {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .LoginWrapper .LoginInner .formWrapper.FPasswordWrapper .FPasswordForm {
+        padding: 0;
+    }
+
+    .LoginWrapper.Custom {
+        .Container {
+            flex-direction: column;
+            max-width: 100%;
+
+            .LeftSection,
+            .LoginInner {
+                width: 100%;
+                margin: auto;
+                max-width: 100%;
+
+                p.Txt {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .LoginInner .right-side {
+                padding: 0;
+            }
+
+            .LeftSection h1,
+            .LeftSection h2,
+            .LeftSection div,
+            .LeftSection p,
+            .LeftSection h5 {
+                display: none;
+            }
+
+            .LoginInner {
+                padding: 0;
+
+                form {
+                    padding: 1rem;
+                }
+            }
+
+            .LeftSection {
+                text-align: center;
+                padding-bottom: 0 !important;
+
+                .logo {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body,
+    html,
+    #root,
+    .AppContainer {
+        width: 100%;
+        height: 100%;
+
+    }
+    .LoginWrapper {
+        width: 100%;
+        height: 100%;
+        .LoginInner {
+            .bgWrapper {
+                display: none !important;
+            }
+
+            &.grid {
+                flex:1 1 auto;
+                width: 100%;
+                padding: 0 !important;
+            }
+
+            .formWrapper.FPasswordWrapper .FPasswordForm {
+                .Btn-lg {
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+
+    .LoginWrapper.Custom .LoginInner .formWrapper form .FormContainer {
+        padding: 0;
+    }
+    .LoginWrapper .LoginInner .formWrapper form .Header .logo{
+        flex-shrink: 0;
+        img{
+            flex-shrink: 0;
+        }
+    }
+    // 767px max End
+}
+
+
+@media screen and (max-width: 640px) {
+    .LoginWrapper.Custom {
+        .LoginInner .formWrapper {
+            width: 100%;
+            padding: 0;
+        }
+
+        .Container .LoginInner form {
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .LoginWrapper {
+        .LoginInner {
+            .formWrapper {
+                form {
+                    .Header {
+                        span {
+                            text-align: center;
+                            font-size: 1.5rem !important;
+                        }
+                    }
+
+                    .FormContainer {
+                        padding:  0 1.25rem 1.25rem 1.25rem!important;
+                    }
+                }
+            }
+
+            .footer {
+                flex-direction:column;
+                text-align: center;
+            }
+        }
+
+        // 567px max End
+    }
+}
+
+@media (orientation: landscape) {
+    body,
+    html,
+    #root,
+    .AppContainer {
+        width: 100%;
+        height: 100%;
+
+    }
+    .LoginWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+}

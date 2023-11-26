@@ -1,0 +1,186 @@
+.broadcasted_videos_details_wraper {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 150ms ease-in-out;
+    
+    &.open {
+        z-index: 12;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &.close {
+        left: 50%;
+        right: 50%;
+        bottom: 50%;
+        top: 50%;
+        width: 0;
+        height: 0;
+        z-index: -12;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .broadcasted_videos_details_inner {
+        padding: 20px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            background: rgba(0, 0, 0, .8);
+            -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+        }
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video_parent_wraper {
+        height: 100%;
+    }
+
+    .action_1 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .action_back {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        font: normal normal 16px/17px var(--regular);
+        letter-spacing: 0px;
+        color: #fff;
+        margin-left: auto;
+        padding: 5px;
+        border-radius: 4px;
+        transition: 150ms ease-in-out;
+
+        svg {
+            transform: rotate(90deg);
+            height: 16px;
+        }
+
+        &:hover,
+        &:focus-visible {
+            background-color: #ffffff;
+            color: #ff0000;
+            transition: 150ms ease-in-out;
+        }
+    }
+
+    .action_2 {
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .action_2_right {
+        display: flex;
+        margin-right: -10px;
+        margin-left: auto;
+
+        button {
+            border: 1px solid #1EAC8F;
+            font: normal normal 16px/20px var(--semibold);
+            letter-spacing: 0px;
+            color: #1EAC8F;
+            transition: 150ms ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            background-color: transparent;
+            padding: 13px 26px;
+            height: 43px;
+            margin: 0 12px;
+
+            span {
+                font: inherit;
+                display: inline-block;
+                color: inherit;
+            }
+
+            svg {
+                width: 18px;
+                height: 18px;
+                margin-left: 12px;
+                color: inherit;
+            }
+
+            &:hover {
+                background-color: #1EAC8F;
+                color: #fff;
+            }
+
+        }
+    }
+
+    h2 {
+        font: normal normal 20px/24px var(--semibold);
+        letter-spacing: 0px;
+        color: #000000;
+        margin-bottom: 6px;
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    span {
+        font: normal normal 14px/14px var(--regular);
+        letter-spacing: 0px;
+        color: #fff;
+    }
+
+    .broadcasted_videos_body {
+        overflow: hidden;
+        height: 100%;
+
+        .broadcasted_video {
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .video-js {
+            height: 600px;
+            overflow: hidden;
+            padding: 0;
+
+            video {
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+    }
+}
+
+.loader_video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}

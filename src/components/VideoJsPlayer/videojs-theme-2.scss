@@ -1,0 +1,202 @@
+.video-js {
+    .vjs-control-bar {
+        flex-wrap: wrap;
+        bottom: 30px;
+        opacity: 1 !important;
+        visibility: visible !important;
+        background: transparent !important;
+        display: flex !important;
+        padding-left:8px;
+        padding-right:8px;
+        padding-bottom:8px;
+
+        >button {
+            cursor: pointer;
+        }
+
+        .vjs-progress-control {
+            order: -1;
+            width: 100%;
+
+            &:hover .vjs-progress-holder {
+                font-size: 1.62em;
+            }
+        }
+
+        .vjs-progress-holder {
+            background: #FF0935;
+            height: 8px;
+            border-radius: 5px;
+            margin: 0;
+        }
+
+        .vjs-play-progress {
+            background: #FF0935;
+            border-radius: 5px;
+
+            &:before {
+                font-size: 16px;
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                right: -8.5px;
+                line-height: 10px;
+                z-index: 1;
+                color: red;
+                width: 10px;
+                height: 10px;
+            }
+            &::after{
+                top: 50%;
+                transform: translateY(-50%);
+                right: -16.75px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                content: '';
+                display: inline-block;
+                position: absolute;
+                background-color: #fff;
+            }
+
+            div {
+                border-radius: 5px;
+            }
+        }
+
+        .vjs-load-progress {
+            border-radius: 5px;
+            background-color: #343434;
+        }
+    }
+
+    .before_content {
+        content: '' !important;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .vjs-big-play-button {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #fff !important;
+        box-shadow: 0px 3px 6px #00000029;
+
+        .vjs-icon-placeholder {
+            position: relative;
+
+            &:before {
+                position: absolute;
+                background-image: url(./assets/play-gray.svg);
+                content: '' !important;
+                background-repeat: no-repeat;
+                width: 24px;
+                height: 27px;
+                background-position: center;
+                background-size: 135%;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    
+    .vjs-play-control {
+        margin-left: -10px !important;
+        order: 0;
+    }
+
+    .vjs-remaining-time {
+        order: 1;
+        font: normal normal 16px/16px var(--regular);
+        letter-spacing: 0px;
+        color: #F6F6F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0 !important;
+        height: 30px;
+    }
+
+    .vjs-icon-placeholder {
+        height: 30px;
+    }
+
+    .vjs-play-control.vjs-playing .vjs-icon-placeholder:before,
+    .vjs-icon-pause:before {
+        content: '' !important;
+        background-image: url(./assets/pause.svg);
+        width: 24px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .vjs-play-control .vjs-icon-placeholder:before,
+    .vjs-icon-play:before {
+        background-image: url(./assets/play.svg);
+        @extend .before_content;
+    }
+
+    .vjs-mute-control .vjs-icon-placeholder:before,
+    .vjs-icon-volume-high:before {
+        background-image: url(./assets/speaker.svg);
+        @extend .before_content;
+    }
+
+    .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder:before,
+    .vjs-icon-volume-mute:before {
+        background-image: url(./assets/speaker-mute.svg);
+        @extend .before_content;
+    }
+
+    .vjs-picture-in-picture-control {
+        order: 3;
+    }
+
+    .vjs-volume-panel {
+        order: 2;
+        width: 10em !important;
+
+        .vjs-volume-control {
+            visibility: visible !important;
+            opacity: 1 !important;
+            width: auto !important;
+        }
+    }
+
+    .vjs-fullscreen-control {
+        order: 3;
+        margin-right: -10px !important;
+        margin-left: auto !important;
+
+    }
+
+    .vjs-fullscreen-control .vjs-icon-placeholder:before,
+    .vjs-icon-fullscreen-enter:before {
+        background-image: url(./assets/fullview.svg);
+        @extend .before_content;
+    }
+
+    .vjs-picture-in-picture-control {
+        display: none !important;
+    }
+
+    .vjs-volume-level {
+        width: .4em;
+    }
+
+    &.vjs-paused.vjs-has-started  .vjs-big-play-button {
+        display: block !important;
+    }
+}

@@ -1,0 +1,3 @@
+export const DO_FORGET_FAIL = 'DO_FORGET_FAIL';
+export const DO_FORGET_ACTION = 'DO_FORGET_ACTION';
+export const DO_FORGET_SUCCESS = 'DO_FORGET_SUCCESS';

@@ -1,0 +1,39 @@
+/* ==========================================================================
+   #Custom HTML5 Video Player
+   ========================================================================== */
+
+   :root {
+    --youtube-red: #FE0900;
+}
+
+.container-custom-vplayer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    progress::-webkit-progress-bar {
+        background-color: #474545;
+        border-radius: 0px;
+    }
+
+    progress::-webkit-progress-value {
+        background: var(--youtube-red);
+        border-radius: 0px;
+    }
+
+    progress::-moz-progress-bar {
+        border: 1px solid var(--youtube-red);
+        background: var(--youtube-red);
+    }
+}
+
+
+.video_parent_wraper,
+.broadcasted_videos_body,
+.broadcasted_video,
+.viewers_broadcast_video {
+    height: 100%;
+    width: 100%;
+
+}

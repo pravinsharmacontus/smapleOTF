@@ -1,0 +1,71 @@
+
+@mixin editor-mixins {
+    word-break: break-word;
+    h2, h3, h4, h5, h6 {
+      margin-top: 0;
+      line-height: 1.2;
+      font-family: var(--black);
+      color: #303030;
+      margin-bottom: 0.625rem;
+    }
+  h1,b, strong {
+      margin-top: 1.2rem;
+      font-size: 1rem;
+      line-height: 1rem;
+      font-family: var(--black);
+      color: #303030;
+      margin-bottom: 0.625rem;
+  }
+  p{
+    margin-bottom: 0.813rem;
+    word-break: break-word;
+  }
+   
+    h3 {
+        font-size: 1.25rem
+    }
+    h2 {
+        font-size: 1rem
+    }
+    code, kbd, pre, samp {
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        background: #f1f1f1;
+        border-radius: 3px;
+        padding: 1px 10px;
+    }
+    code {
+        font-size: 87.5%;
+        color: #e83e8c;
+        word-break: break-word
+    }
+    a > code {
+        color: inherit
+    }
+    blockquote {
+      margin: 0 0 1rem;
+      font-size: 1.25rem;
+    }
+  
+    ol,ul {
+      margin: 16px 0;
+      padding: 0 0px 0 15px !important;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+      li{
+        margin-bottom: 3px;
+      }
+    }
+    ul{
+      list-style-type: disc;
+    }
+    ol{
+      list-style-type: decimal;
+    }
+    em{
+      font-style: italic;
+    }
+  }

@@ -1,0 +1,42 @@
+ @import '../../../../../../assets/scss/variables.scss';
+
+.camera_settings_wraper {
+    .camera_settings_video {
+        position: relative;
+        background: $black_6;
+        border-radius: 6px;
+        color: $white_one;
+        margin-bottom: 33px;
+        overflow: hidden;
+        @media(max-width:1599px){
+            width: 328px;
+            height: 184.50px;
+        }            
+        
+        @media(min-width:1600px){
+            width: 432px;
+            height: 243px;
+        }
+
+        video {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        svg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    fieldset {
+        max-width: 308px;
+        margin-bottom: 16px;
+    }
+}

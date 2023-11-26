@@ -1,0 +1,32 @@
+.OverlayWithData{
+    position: absolute;
+   display: flex; align-items: center; justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    // background: rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    border-radius: 6px;
+    .txt{
+        display: inline-block;
+        color: #232d39;
+        background: #ffffff;
+        padding: 10px;
+        box-shadow: 0 0 4px 3px #0000000d;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        line-height:100%;
+        font-family: var(--heavy);
+    }
+    &.absolute{
+        position: absolute; 
+    }
+    &.fixed{
+        position: fixed; 
+    }
+    &.center{
+        align-items: center;
+        justify-content: center;
+    }
+}

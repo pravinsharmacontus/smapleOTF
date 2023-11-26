@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Download_icon" data-name="Download icon" transform="translate(-202.471 -630)">
+    <rect id="Rectangle_10701" data-name="Rectangle 10701" width="16" height="16" transform="translate(202.471 630)" fill="none"/>
+    <g id="Group_32456" data-name="Group 32456" transform="translate(-902.685 295.837)">
+      <g class="arrowAnimate">
+        <path data-name="Path 186" d="M1116.12,344.577v-8.182" transform="translate(-2.968)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        <path data-name="Path 187" d="M1117.172,345.508l-1.984,1.99-1.978-1.99" transform="translate(-2.035 -2.92)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      </g>
+      <path class="" data-name="Path 188" d="M1116.3,341.128h.639a2.5,2.5,0,0,1,2.5,2.5v3.319a2.494,2.494,0,0,1-2.494,2.5h-7.57a2.505,2.505,0,0,1-2.508-2.5v-3.32a2.5,2.5,0,0,1,2.5-2.5h.639" transform="translate(0 -1.517)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

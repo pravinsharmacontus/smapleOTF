@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Plan_Type_ic" data-name="Plan Type_ic" transform="translate(-1020 -187)">
+    <rect id="Rectangle_14043" data-name="Rectangle 14043" width="20" height="20" transform="translate(1020 187)" fill="none"/>
+    <g id="Group_34291" data-name="Group 34291" transform="translate(362.661 -35.12)">
+      <path id="Path_66" data-name="Path 66" d="M669.81,223.762h-6.064a3.482,3.482,0,0,0-3.495,3.4v9.765a3.49,3.49,0,0,0,3.411,3.565h7.366a3.543,3.543,0,0,0,3.4-3.565v-8.355Z" transform="translate(0 -0.001)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      <path id="Path_67" data-name="Path 67" d="M670.475,223.75V226.4a2.346,2.346,0,0,0,2.341,2.347h2.511" transform="translate(-0.905)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_68" data-name="Path 68" d="M669.81,236.359h-4.922" transform="translate(-0.41 -1.116)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_69" data-name="Path 69" d="M667.946,232.606h-3.059" transform="translate(-0.41 -0.784)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

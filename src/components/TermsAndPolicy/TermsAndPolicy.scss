@@ -1,0 +1,30 @@
+.Policy_container {
+    display: inline-flex;
+    @media screen and (min-width:769px) {
+        margin-top: 0px;
+      }
+    
+      @media screen and (max-width:768px) {
+        margin-top: 6px;
+      }
+    margin-bottom: 20px;
+
+    .Policy {
+        font: normal normal 12px/18px var(--regular);
+        letter-spacing: 0px;
+        color: #414546;
+        text-align: center;
+
+        a {
+            color: #105EF1;
+        }
+    }
+
+    .form-check {
+        margin: 0 6px 0 0;
+        width: 16px;
+        input[type="checkbox"] {
+            margin: 0 0 0 0;
+        }
+    }
+}

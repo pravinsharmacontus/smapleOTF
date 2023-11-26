@@ -1,0 +1,12 @@
+export { ReactComponent as IconSideMenuOverview } from "./overview.svg";
+export { ReactComponent as IconSideMenuAnalytics } from "./analytics.svg";
+export { ReactComponent as IconSideMenuUsers } from "./users.svg";
+export { ReactComponent as IconSideMenuSubcription } from "./subscription.svg";
+export { ReactComponent as IconSideMenuSetting } from "./setting.svg";
+export { ReactComponent as IconSideMenuDropdown } from "./dropdown.svg";
+export { ReactComponent as IconSideMenuLogout } from "./logout.svg";
+export { ReactComponent as IconSideMenuCustomer } from "./customer.svg";
+export { ReactComponent as IconSideMenuPayment } from "./payment.svg";
+export { ReactComponent as IconSideMenuDownload } from "./download.svg";
+export { ReactComponent as IconSideMenucallUsage } from "./callUsage.svg";
+export { ReactComponent as IconModeration } from "./moderation.svg";

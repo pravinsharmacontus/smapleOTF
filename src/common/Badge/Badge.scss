@@ -1,0 +1,35 @@
+.Badge{
+display: inline-flex;
+justify-content: center;
+align-self: center;
+margin: 4px 4px 4px 0px;
+cursor: default;
+&.orange{
+    background: #F8A039;
+}
+&.green{
+    background: #3EB542;
+}
+&.red{
+    background: #FD7979;
+}
+&.rounded{
+    border-radius: 9px;
+}
+&.rounded_sm{
+    border-radius: 0.25rem;
+}
+}
+
+.badge_medium{
+    padding: 3px 10px;
+    font: normal normal 12px/12px var(--regular);
+}
+
+.badge_green_dark{
+    background: #1EAC8F;
+    color: #fff;
+}
+.rounded{
+    border-radius: 50%;
+}

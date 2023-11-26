@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"  viewBox="0 0 64 64">
+  <g data-name="circle place holder_ic">
+    <g data-name="Rectangle 7374" fill="#fff" stroke="#52b0d9">
+      <rect width="64" height="64" rx="32" stroke="none" />
+      <rect x=".5" y=".5" width="63" height="63" rx="31.5" fill="none" />
+    </g>
+    <path data-name="Forma 1"
+      d="M31.999 10.791a10.025 10.025 0 11-10.023 10.025 10.025 10.025 0 0110.023-10.025zm-.007 43.629a22.242 22.242 0 01-14.484-5.341 4.271 4.271 0 01-1.5-3.248 10.11 10.11 0 0110.159-10.106h11.667a10.1 10.1 0 0110.143 10.106 4.263 4.263 0 01-1.5 3.247 22.235 22.235 0 01-14.484 5.343z"
+      fill="#1c97cf" />
+  </g>
+</svg>

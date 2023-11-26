@@ -1,0 +1,243 @@
+.cp-btn {
+    --btfontsize: 12px;
+    --btborderColor: transparent;
+    --btColor: #fff;
+    --btBgColor: transparent;
+    user-select: none;
+
+    &.text-sm {
+        --btfontsize: 12px;
+    }
+
+    &.text-normal {
+        --btfontsize: 14px;
+    }
+
+    &.text-md {
+        --btfontsize: 16px;
+    }
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--btborderColor);
+    transition: 200ms linear all;
+    text-align: center;
+    cursor: pointer;
+    background: var(--btBgColor);
+    padding: 9px 16px;
+    color: var(--btColor);
+    font: normal normal var(--btfontsize) / 100% var(--bold);
+    white-space: nowrap;
+
+    &.b-rounded {
+        border-radius: 1.0625rem;
+    }
+
+    &:hover {
+        transition: 200ms linear all;
+    }
+
+    &.bt-outline {
+        --btborderColor: transparent;
+    }
+
+    &.bt-default {
+        --btborderColor: #c9c9c9;
+        --btColor: #5e6278;
+        padding: 0.5625rem 1rem;
+        background: #f8f8f8;
+
+        &:hover {
+            background: #e3e3e3;
+        }
+
+        &:not(.bt-outline) {
+            background: #f8f8f8;
+        }
+    }
+
+    //red button
+    &.bt-red {
+        --btborderColor: #FF0935;
+        --bthover: #b40020;
+        --btColor: #FF0935;
+
+        &:hover,&:focus-visible {
+            background: var(--bthover) !important;
+            --btColor: #FFF;
+        }
+
+        &:not(.bt-outline) {
+            background: var(--btborderColor);
+            color: #fff;
+        }
+    }
+
+    //yellow button
+    &.bt-yellow {
+        color: #846b10;
+
+        &:hover {
+            background: #e4b50c;
+        }
+
+        &:not(.bt-outline) {
+            background: #fed12f;
+        }
+    }
+
+    //green button
+    &.bt-green {
+        --btborderColor: #1EAC8F;
+        --bthover: #109077;
+        --btColor: #1EAC8F;
+
+        &:hover {
+            background: var(--bthover) !important;
+            --btColor: #FFF;
+        }
+
+        &:not(.bt-outline) {
+            background: var(--btborderColor);
+            color: #fff;
+        }
+    }
+
+    //sizes
+
+    &.b-lg {
+        min-width: 180px;
+    }
+
+    &.b-auto {
+        min-width: 0;
+        width: auto;
+        border-color: #C9C9C9;
+    }
+
+    &.b-sm {
+        width: 90px;
+    }
+
+    &.b-xs {
+        min-width: 90px;
+    }
+
+    &.b-md {
+        min-width: 133px;
+    }
+
+    &.b-md-w {
+        width: 130px;
+    }
+
+    &.bh-sm {
+        height: 30px;
+    }
+
+    &:not(.bh-sm) {
+        height: 34px;
+    }
+
+    .p-0 {
+        padding: 0 !important;
+    }
+}
+
+.cp-btn-icon {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    color: #9c9faf;
+    transition: linear 200ms all;
+
+    &:hover, &:focus-visible{
+        transition: linear 200ms all;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    &.red:not(:disabled) {
+        &:hover,&:focus-visible {
+            color: #ff4747;
+            background: #ff474720;
+        }
+    }
+
+    &.blue:not(:disabled) {
+        &:hover,&:focus-visible {
+            color: #0062ff;
+            background: #0062ff20;
+        }
+    }
+
+    &.rounded {
+        border-radius: 50%;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        cursor: default;
+        background-color: transparent !important;
+        color: #C9C9C9 !important;
+    }
+}
+
+.cp-btn-custom {
+    white-space: nowrap;
+    user-select:none;
+    background: #1EAC8F;
+    border-radius: 4px;
+    font-size: var(--DefaultFontSize);
+    line-height: 100%;
+    font-family: var(--regular);
+    color: #ffffff;
+    padding: 0.75rem 1.625rem 0.8125rem;
+    cursor: pointer;
+    border: 1px solid #1EAC8F;
+    outline: 0;
+    transition: 200ms linear;
+
+    &:hover,&:focus-visible {
+        transition: 300ms linear;
+        background: #18826D;
+        border: 1px solid #18826D;
+    }
+}
+
+.pdfDownloadBtn {
+    width: 145px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7A8482;
+    border: 1px solid #FFFFFF9C;
+    border-radius: 21px;
+    transition: all linear 200ms;
+    font: normal normal 17px/21px var(--semibold);
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 0 auto 17px;
+
+    svg {
+        width: 25px;
+        height: 26px;
+        margin-right: 5px;
+    }
+
+    &:hover,&:focus-visible {
+        background: #272727 0% 0% no-repeat padding-box;
+        transition: all linear 200ms;
+    }
+}

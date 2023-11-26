@@ -1,0 +1,239 @@
+.common-input-wrapper{
+    margin-top: 0 !important;
+    position: relative;
+    margin-bottom: 19px !important;
+    max-width: 100%;
+    .pass-icon{
+        position: absolute;
+        right: 1.063rem;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .placeholder{
+        font: normal normal 0.875rem/0.9375rem var(--semibold);
+        color: #3B3B3B;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    input[type="text"],textarea,input[type="password"]{
+       
+        border-radius: 0.25rem;
+        width: 100%;
+        height: 50px;
+        font-size: var(--inputFsize);
+        line-height: 100%;
+        font-family: var(--medium);
+        letter-spacing: 0.21px;
+        color: #000000;
+        padding: 0.75rem;
+        border: 0.0625rem solid transparent;
+        @media screen and (max-width: 1599px) {
+            height: 40px;
+        }
+        &.input_transparent{
+            border-color: transparent !important;
+        }
+        &:not(.input_transparent){
+            border-color:#c9c9c9;
+            &:focus-visible{
+                border-color: #1eac8f;
+            }
+        }
+            &.disabled{
+                color: rgba(0, 0, 0, 0.6) !important;
+                background: #EFEFEF !important;
+                border-color: #EFEFEF !important;
+                cursor: default !important;
+            }
+        }
+    input[type="text"]:not(.input_transparent):focus{
+        border-color: #1eac8f;
+    }
+    .readOnly{
+        background: transparent;
+        border-color: transparent !important;
+        padding-left: 0;
+    }
+    .hideView {
+        width: 1.25rem;
+        height: 1.25rem;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        right: 1.125rem;
+        cursor: pointer;
+        .IconPasswordHide {
+            width: 1.25rem;
+            height: 1.25rem;
+            svg{
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+        }
+        .IconPasswordView{
+            width: 20px;
+            height: 1.25rem;
+            svg{
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+        }
+    }
+    .error{
+        .errorMessage{
+            left: 0;
+        }
+    }
+    .input-section{
+        position: relative;
+    }
+    &.mb-0{
+        margin-bottom: 0 !important;
+    }
+
+    .errorMessage{
+    color: #f25468;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 0.75rem;
+    line-height: 100%;
+    font-family: var(--regular);
+    }
+    .dropdown-error {
+        border-color: #f25468 !important;
+        background: rgba(242, 84, 104, 0.1) !important;
+    }
+    &.error, .error{
+        input[type="text"],textarea{
+            border-color: #f25468 !important;
+            background: rgba(242, 84, 104, 0.1);
+        }
+    }
+}
+
+.status-custom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #C8C8C8;
+    padding: 7px 11px;
+    margin:  -3px 0 0 0!important;
+    border-radius: 4px;
+    .labelHeading{
+        margin-left: 0rem !important;
+        color: #171717;
+        &.inactive{
+            display: none !important;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        flex-direction: column;
+        .labelHeading {
+            margin-bottom: 10px !important;
+        }
+    }
+}
+
+.CommonDrop{
+    padding: 12px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_lable_tooltip{
+    display: flex;
+    position: relative;
+    align-items: center;
+    > .icon{
+        cursor: pointer;
+        position: relative;
+        top: -2px;
+        width: 16px;
+        height: 16px;
+        min-width: 16px;
+        min-height: 16px;
+        margin: 0 4px;
+        color: #7E8299;
+         transition: all .2s ease-in-out;
+
+         svg{
+            margin: 0 !important;
+            padding: 0 !important;
+         }
+        
+        .label_tooltip_wraper {
+            visibility: hidden;
+            z-index: 1;
+            transition: all .1s ease-in-out;
+            transform: translate3d(0,6px,0);
+            opacity: 0;
+            position: absolute;
+            left: 100%;
+            top: 0%;
+            margin-left: 8px;
+            width: 386px;
+            min-height: 110px;
+            padding: 12px;
+            letter-spacing: 0px;
+            color: #3D3D3D;
+            line-height: 20px;
+            background: #F5F5F6;
+            border: 1px solid #DFDFDF;
+            border-radius: 4px;
+            font-size:14px var(--semibold);
+            .label_tooltip_title{
+                font-family:var(--semibold);
+                width: 100%;
+                margin-bottom: 8px;
+            }
+            .label_tooltip_desc{
+                font-family: var(--regular);
+                width: 100%;  
+            }
+            @media screen and (max-width: 567px) {
+                width: 320px;
+                left: 0;
+                bottom: 100%;
+                margin-bottom: 8px;
+                top: unset;
+            }
+            @media screen and (max-width: 420px) {
+                width: 280px;
+            }
+            @media screen and (max-width: 360px) {
+                width: 242px;
+            }
+            &.auto_width{
+                width: auto;
+            }
+            &.right{
+                left: unset;
+                right: 0;
+            }
+            &.bottom{
+                top: 100%;
+            }
+        }
+        &:hover{
+            color: #404353;
+             transition: all 200ms linear;
+            .label_tooltip_wraper{
+                visibility: visible;
+                opacity: 1;
+                transform: scale3d(1,1,1);
+                z-index: 1;
+                transition: all .2s ease-in-out;
+            }
+        }
+    }
+}
+input:disabled {
+    color: rgba(0, 0, 0, .6);
+    background: #EFEFEF !important;
+    border-color: #EFEFEF !important;
+    cursor: default;
+}

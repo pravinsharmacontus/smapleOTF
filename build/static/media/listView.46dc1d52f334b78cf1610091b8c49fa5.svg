@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g transform="translate(-1203 -127)">
+        <g transform="translate(89.001 65)">
+            <g  fill="none" stroke="currentColor" transform="translate(1113.999 62)">
+                <rect  stroke="none" width="30" height="30" rx="4" />
+                <rect fill='none' x="0.5" y="0.5" width="29" height="29" rx="3.5" />
+            </g>
+        </g>
+        <g transform="translate(1212 137)">
+            <path fill="#363a4a" d="M11.661,0H.686C.308,0,0,.231,0,.514V1.543c0,.283.308.514.686.514H11.661c.378,0,.686-.231.686-.514V.514C12.347.231,12.039,0,11.661,0Zm0,0" />
+            <path fill="#363a4a" d="M11.661,128H.686c-.378,0-.686.231-.686.514v1.029c0,.283.308.514.686.514H11.661c.378,0,.686-.231.686-.514v-1.029C12.347,128.231,12.039,128,11.661,128Zm0,0"
+                transform="translate(0 -123.884)" />
+            <path fill="#363a4a" d="M11.661,256H.686c-.378,0-.686.231-.686.514v1.029c0,.283.308.514.686.514H11.661c.378,0,.686-.231.686-.514v-1.029C12.347,256.231,12.039,256,11.661,256Zm0,0"
+                transform="translate(0 -247.768)" />
+        </g>
+    </g>
+</svg>

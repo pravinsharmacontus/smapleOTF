@@ -1,0 +1,16 @@
+.Badges{
+font: normal normal 10px/12px var(--bold);
+letter-spacing: 0px;
+height: 15px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+padding: 2px 4px;
+border-radius: 4px;
+text-decoration: none !important;
+> span {
+    display: inline-block;
+    text-decoration: none !important;
+
+}
+}

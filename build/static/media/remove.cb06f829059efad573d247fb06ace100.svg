@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+    <circle  fill="currentColor" cx="6" cy="6" r="6" />
+    <path  fill="#fff" stroke="#fff" stroke-width="0.5px"
+        d="M2.463,2.081,4.083.46A.27.27,0,1,0,3.7.079L2.081,1.7.46.079A.27.27,0,0,0,.079.46L1.7,2.081.079,3.7a.27.27,0,1,0,.381.381L2.081,2.463,3.7,4.083A.27.27,0,1,0,4.083,3.7Zm0,0"
+        transform="translate(8.137 3.668) rotate(90)" />
+</svg>

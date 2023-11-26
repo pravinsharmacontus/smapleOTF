@@ -1,0 +1,16 @@
+<svg id="Component_1085_47" data-name="Component 1085 – 47" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_24102" data-name="Rectangle 24102" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="Group_66940" data-name="Group 66940" transform="translate(-2003.732 20416.172)">
+    <g id="Group_66941" data-name="Group 66941" transform="translate(2005 -20412.221)">
+      <g id="Group_66940-2" data-name="Group 66940" transform="translate(0 0)">
+        <path id="Path_93697" data-name="Path 93697" d="M19.675,64H1.789A1.791,1.791,0,0,0,0,65.789V76.52a1.791,1.791,0,0,0,1.789,1.789h7.6V79.2H6.707a.447.447,0,1,0,0,.894h8.049a.447.447,0,1,0,0-.894H12.073v-.894h7.6a1.791,1.791,0,0,0,1.789-1.789V65.789A1.791,1.791,0,0,0,19.675,64Zm-8.5,15.2h-.894v-.894h.894Zm9.39-2.683a.9.9,0,0,1-.894.894H1.789a.9.9,0,0,1-.894-.894V65.789a.9.9,0,0,1,.894-.894H19.675a.9.9,0,0,1,.894.894Z" transform="translate(0 -64)" fill="currentColor" stroke="currentColor" stroke-width="0.5"/>
+        <path id="Vector" d="M18.732,0,0,19.385" transform="translate(1.807 -1.645)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Group_66943" data-name="Group 66943" transform="translate(2013.967 -20402.424) rotate(-90)">
+      <g id="Group_66942" data-name="Group 66942" transform="translate(0 0)">
+        <path id="Path_93698" data-name="Path 93698" d="M5.649,1.774h0L3.961.094a.323.323,0,0,0-.456.458L4.638,1.679.323,1.729a.323.323,0,1,0,0,.646l4.315-.049L3.505,3.453a.323.323,0,1,0,.456.458L5.648,2.231h0A.323.323,0,0,0,5.649,1.774Z" fill="currentColor" stroke="currentColor" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

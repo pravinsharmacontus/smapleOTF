@@ -1,0 +1,10 @@
+// common style mixins start
+@mixin scrollbar-sm {
+    &::-webkit-scrollbar{
+      width: 6px;
+      border-radius: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+      border-radius: 6px;
+  }
+  }

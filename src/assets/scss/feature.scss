@@ -1,0 +1,23 @@
+.AppContainer{
+  &.defaltHeader{
+    height: 100vh;
+    overflow-x: hidden;overflow-y: auto;
+    .fixedHeaderContainer{
+      position: static;
+    }
+    .MainWrapper{
+      padding-top:0;
+      overflow-x: hidden;overflow-y: auto;
+      .ContentWrapper{
+        height: auto;
+        overflow-x: hidden;overflow-y: auto;
+      }
+    }
+  }
+  &:not(.activeSideMenu){
+  padding-top: var(--headerHeight);
+  }
+  &.activeSideMenu{
+    flex-direction: row;
+  }
+}

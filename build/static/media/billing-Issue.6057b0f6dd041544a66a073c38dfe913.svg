@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.864" height="15.444" viewBox="0 0 12.864 15.444">
+    <g transform="translate(-42.773)">
+        <g transform="translate(45.582)">
+            <g transform="translate(0)">
+                <path fill="#fd7c7c" d="M144.59,1.053,142.761,0l-1.828,1.053L139.1,0l-1.828,1.053-1.371-.79V12.676h8.16V14.5a.947.947,0,1,0,1.895,0V.264Zm-7.57,7.214V7.352h3.914v.915Zm7.827-2H137.02V5.355h7.827Zm0-2H137.02V3.358h7.827Z"
+                    transform="translate(-135.906)" />
+            </g>
+        </g>
+        <g transform="translate(42.773 13.59)">
+            <g transform="translate(0)">
+                <path fill="#fd7c7c" d="M52.827,451.45v-.906H42.773v.906a.948.948,0,0,0,.947.947h9.366A1.851,1.851,0,0,1,52.827,451.45Z"
+                    transform="translate(-42.773 -450.544)" />
+            </g>
+        </g>
+    </g>
+</svg>

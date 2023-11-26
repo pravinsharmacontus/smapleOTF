@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Date_Range_ic" data-name="Date Range_ic" transform="translate(-1020 -187)">
+    <rect id="Rectangle_14043" data-name="Rectangle 14043" width="20" height="20" transform="translate(1020 187)" fill="none"/>
+    <g id="Group_33961" data-name="Group 33961" transform="translate(811.468 -90.369)">
+      <path id="Path_234" data-name="Path 234" d="M211.093,286.4h14.916" transform="translate(-0.015 -1.207)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_241" data-name="Path 241" d="M224.044,279v2.754" transform="translate(-2.127)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_242" data-name="Path 242" d="M215.965,279v2.754" transform="translate(-0.81)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_243" data-name="Path 243" d="M222.079,280.579h-7.086c-2.458,0-3.993,1.369-3.993,3.886v7.574A3.636,3.636,0,0,0,214.993,296h7.079c2.466,0,3.993-1.377,3.993-3.893v-7.638C226.072,281.948,224.545,280.579,222.079,280.579Z" transform="translate(0 -0.258)" fill="none" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

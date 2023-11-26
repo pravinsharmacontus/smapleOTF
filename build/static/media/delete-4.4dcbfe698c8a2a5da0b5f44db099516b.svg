@@ -1,0 +1,15 @@
+
+<svg id="Component_9_245" data-name="Component 9 – 245" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_8528" data-name="Rectangle 8528" width="24" height="24" fill="none"/>
+  <g id="Group_24202" data-name="Group 24202" transform="translate(3.521 2.751)">
+    <path id="Path_95" data-name="Path 95" d="M227.325,395.468s-.543,9.735-.858,12.572a2.238,2.238,0,0,1-2.358,2.174c-2.609.047-5.221.05-7.829,0a2.214,2.214,0,0,1-2.289-2.162c-.317-2.862-.857-12.579-.857-12.579" transform="translate(-211.75 -391.751)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_96" data-name="Path 96" d="M228.708,395.24H211.75" transform="translate(-211.75 -391.751)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_97" data-name="Path 97" d="M225.441,395.24a1.648,1.648,0,0,1-1.615-1.324l-.243-1.216a1.28,1.28,0,0,0-1.237-.949h-4.233a1.28,1.28,0,0,0-1.237.949l-.243,1.216a1.648,1.648,0,0,1-1.615,1.324" transform="translate(-211.75 -391.751)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Group_24203" data-name="Group 24203" transform="translate(6.479 7.608)">
+      <g id="Group_24204" data-name="Group 24204">
+        <path id="Path_297" data-name="Path 297" d="M0,0H7" transform="rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_298" data-name="Path 298" d="M0,0H7" transform="translate(4) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

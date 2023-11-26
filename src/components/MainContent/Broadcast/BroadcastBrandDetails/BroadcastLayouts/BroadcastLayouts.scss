@@ -1,0 +1,42 @@
+.broadcast_layouts{
+    background: #E3E3E3;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 10px #A2A2A229;
+}
+.broadcast_video_layout_wraper {
+    .broadcast_video_layout_list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -5px;
+        padding: 5px;
+
+        button {
+            position: relative;
+            margin: 5px;
+            padding: 0;
+            border-radius: 4px;
+            transition: 200ms ease-in-out;
+            width: 40px;
+            height: 26px;
+
+            &:hover,
+            &:focus,
+            &.active {
+                transition: 200ms ease-in-out;
+                box-shadow: 0px 3px 10px -5px #00000060;
+            }
+
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

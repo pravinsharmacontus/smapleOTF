@@ -1,0 +1,35 @@
+.PageUnderConstruction{
+    display: flex; align-items: center; justify-content: center;
+    height: 100%;
+    // background: #fafafa;
+    .UnderConstruction{
+        flex-direction: column;
+        display: flex; align-items: center; justify-content: center;
+        .img-block{
+            max-width: 33.563rem;
+            max-height: 22.93rem;
+            width: 100%;
+            height: 100%;
+        }
+        .content{
+            display: flex; align-items: center; justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            h1{
+                font: normal normal 900 1.688rem/2.875rem var(--black);
+                letter-spacing: 0.0315rem;
+                color: #020202;
+                margin-top: 1.25rem;
+            }
+            span{
+                display: inline-block;
+                max-width: 21.313rem;
+                width: 100%;
+                font: normal normal  0.75rem/1.125rem var(--light);
+                letter-spacing: 0.23px;
+                color: #747474;
+                margin-bottom: 0.625rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.successPopupWrapper {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20.625rem;
+    width: 100%;
+    padding-bottom: 15%;
+    .successPopup {
+        text-align: center;
+    }
+    .iconTick {
+        width: 3.4375rem;
+        height: 3.4375rem;
+        display: block;
+        margin: 0 auto 1rem;
+        box-shadow: 0 3px 30px rgba(0, 0, 0,.24);
+        border-radius: 50%;
+    }
+    .successMsg {
+        display: block;
+        font: normal normal 1.125rem/1.375rem var(--heavy);
+        letter-spacing: 0px;
+        color: #070521;
+        margin-bottom: 0.75rem;
+    }
+    .successInfo {
+        display: block;
+        font: normal normal normal 0.875rem/1.3125rem var(--regular);
+        letter-spacing: 0px;
+        color: #757575;
+    }
+}
+.backButton{
+    cursor: pointer;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    left: 60px;
+    color: #2E5FCE;
+    position: absolute;
+    letter-spacing: 0px;
+    background: transparent;
+    font: normal normal 0.75rem/0.875rem var(--heavy);
+    svg{
+        margin-right: 0.4375rem;
+    }
+}

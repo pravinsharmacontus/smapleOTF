@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Mail_Icon" data-name="Mail Icon" transform="translate(-653 -305)">
+    <path id="Path_16994" data-name="Path 16994" d="M-2625.363-301.241h44.851v4.01l-22.053,13.175-23.772-15.7Z" transform="translate(3286 619)" fill="#ccc"/>
+    <g id="forward_to_inbox_black_24dp" transform="translate(653 305)">
+      <rect id="Rectangle_10729" data-name="Rectangle 10729" width="60" height="60" fill="none"/>
+      <path id="Path_16993" data-name="Path 16993" d="M47.238,4H7.026A5.041,5.041,0,0,0,2,9.026V39.185a5.041,5.041,0,0,0,5.026,5.026H29.645V39.185H7.026V14.053L27.132,26.619,47.238,14.053V26.619h5.026V9.026A5.041,5.041,0,0,0,47.238,4ZM27.132,21.592,7.026,9.026H47.238ZM44.725,31.645,54.777,41.7,44.725,51.751v-7.54H34.672V39.185H44.725Z" transform="translate(3.026 6.053)" fill="#999"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_33304" data-name="Group 33304" transform="translate(-56 69) rotate(-90)">
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="24" height="24" transform="translate(45 56)" fill="none"/>
+    <g id="Group_33487" data-name="Group 33487" transform="translate(289.34 -151.532) rotate(90)">
+      <path id="Path_45" data-name="Path 45" d="M229.261,235.094H225.44a2.54,2.54,0,1,1,0-5.081h3.821" transform="translate(-0.696 -0.338)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_46" data-name="Path 46" d="M226.031,232.643h-.294" transform="translate(-0.855 -0.485)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_47" data-name="Path 47" d="M215.453,224h8.158a4.954,4.954,0,0,1,4.953,4.953v6.774a4.953,4.953,0,0,1-4.953,4.952h-8.158a4.953,4.953,0,0,1-4.953-4.952v-6.774A4.954,4.954,0,0,1,215.453,224Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_48" data-name="Path 48" d="M215.036,228.538h5.1" transform="translate(-0.255 -0.255)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

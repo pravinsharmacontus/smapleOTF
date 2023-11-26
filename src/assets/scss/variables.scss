@@ -1,0 +1,170 @@
+// Fonts family 
+
+
+
+// Utility fonts sizes 
+$font0: 0rem;
+$font8: 0.5rem;
+$font9: 0.5625rem;
+$font10: 0.625rem;
+$font11: 0.6875rem;
+$font12: 0.75rem;
+$font13: 0.8125rem;
+$font14: 0.875rem;
+$font15: 0.9375rem;
+$font16: 1rem;
+$font17: 1.0625rem;
+$font18: 1.125rem;
+$font19: 1.1875rem;
+$font20: 1.25rem;
+$font21: 1.3125rem;
+$font22: 1.375rem;
+$font23: 1.4375rem;
+$font24: 1.5rem;
+$font25: 1.5625rem;
+$font26: 1.625rem;
+$font27: 1.6875rem;
+$font28: 1.75rem;
+$font29: 1.8125rem;
+$font30: 1.8125rem;
+$font31: 1.8125rem;
+$font32: 2rem;
+$font33: 2.0625rem;
+$font34: 2.125rem;
+$font35: 2.1875rem;
+$font36: 2.25rem;
+$font37: 2.3125rem;
+$font38: 2.375rem;
+$font39: 2.4375rem;
+$font40: 2.5rem;
+$font41: 2.5625rem;
+$font42: 2.625rem;
+$font43: 2.6875rem;
+$font44: 2.75rem;
+$font45: 2.8125rem;
+
+:root {
+    --primary: #1c2e3e;
+    --primaryLite: #1c97ce;
+    --BgBright: #fff;
+    --white: #fff;
+    --whiteLite: rgba(255, 255, 255, 0.6);
+    --bgLite: #fafafa;
+    --hoverNov: #fbcd2e;
+    --headerHeight: 70px;
+    --pagetitleHeight: 64px;
+    --BgMainWrapper: #F7F8FB;
+    --headingDark: #000000;
+    --txtDark: #000000;
+    --positive: #1EAC8F;
+    --positive2: #17a51c;
+    --negative: #FF4A4A;
+    --negative2: #de2929;
+    --disabled: #9e9e9e;
+    --paymentDue: #ed2f2f;
+    --secondary: #FD0E35;
+    --successclr: #1dc070;
+    --completed: #1EAC8F;
+    --pending: #F0C000;
+    // Fonts
+    
+    --regular: ProximaNovaRegular, sans-serif !important;
+    --medium: ProximaNovaMedium, sans-serif !important;
+    --semibold: ProximaNovaSemibold, sans-serif !important;
+    --bold: ProximaNovaBold, sans-serif !important;
+    --heavy: ProximaNovaExtrabold, sans-serif !important;
+    --extrabold: ProximaNovaExtrabold, sans-serif !important;
+    --black: ProximaNovaBlack, sans-serif !important;
+    --light: ProximaNovaLight, sans-serif !important;
+    --lightItaic: ProximaNovaLightItalic, sans-serif !important;
+
+    --DefaultFontSize: 1rem;
+    --headingFsizeLg: 1rem;
+    --headingFsize: 0.875rem;
+    --commonFsize: 0.75rem;
+    --commonFsizeLg: 0.875rem;
+    --inputFsize: 1rem;
+    // height
+    --footerHeight: 27px;
+    --scrollWidth: 0.625rem;
+    --rightSpaceAdjustment: 7%;
+    --rightSpaceAdjustmentScroll: calc(var(--rightSpaceAdjustment) - var(--scrollWidth));
+
+    --rightpartpad: 40px;
+    --rightpartbottom: 3.4375rem;
+    --rightgridleftspace: 120px;
+    --ismobile: 0px;
+}
+
+
+
+//shadow
+$shadow_one: #0000001A;
+$shadow_2:#0000000F;
+$shadow_3:#00000029;
+$shadow_4:#1EAC8F;
+$shadow_5:#00000014;
+$shadow_6:#00000060;
+
+
+// black colors
+$black_one:#000000;
+$black_2: #212121;
+$black_3: #292D32;
+$balck_4:#242A31;
+$black_5:#434343;
+$black_6:#383838;
+$black_7:#3B3B3B;
+$black_8:#262626;
+$black_9:#30303099;
+$black_10:#343434;
+$black_11:#54545400;
+
+
+//white colors
+$white_one: #fff;
+$white_2:#F6F6F6;
+$white_3:#E3E3E3;
+$white_4:#F3F7FF;
+$white_5:#EEEEEE;
+$white_6:#F9F9F9;
+$white_7:#DEDEDE;
+$white_8:#F2F2F2;
+$white_9:#F3F3F4;
+
+// grey colors
+$grey_one:#959595;
+$grey_2:#6D727E;
+$grey_3:#CED4DA;
+$grey_4:#ACACAE;
+
+// blue colors
+$blue_one:#1eac8f;
+$blue_2:#004dc8;
+$blue_3:#1367F210;
+$blue_4:#0062FF;
+
+// red colors
+$red_one:#DB0E16;
+$red_2:#b40208;
+$red_3:#FA121B1A;
+$red_4:#FA121B;
+
+//button
+$default_background: #E4EDFD;
+$default_hover_background: #FFE5E9;
+$button_color:#FF0935;
+$danger_button_background:#FF4343;
+$danger_buttom_hover:#b20423;
+$inaction_font_color:#FF0935;
+$button_hover:#a70724;
+
+// broadcast screens colors
+$mic_background:#F6F6F6;
+$mic_volume:#C9C9C9;
+$mic_off:#818181;
+$mic_on:#07BC0C;
+$stream_note_border:#BFD5FF61;
+$breathing_background:#FF093550;
+$action_hover:#b40020; 
+$label_color:#2D4047

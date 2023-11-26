@@ -1,0 +1,9 @@
+
+<svg id="check_circle_black_24dp_1_" data-name="check_circle_black_24dp (1)" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_17005" data-name="Path 17005" d="M0,0H60V60H0Z" fill="none"/>
+  <g id="Ellipse_288" data-name="Ellipse 288" transform="translate(6 6)" fill="#40be51" stroke="#707070" stroke-width="1" opacity="0.12">
+    <circle cx="24" cy="24" r="24" stroke="none"/>
+    <circle cx="24" cy="24" r="23.5" fill="none"/>
+  </g>
+  <path id="Path_17006" data-name="Path 17006" d="M28.26,2A26.26,26.26,0,1,0,54.52,28.26,26.27,26.27,0,0,0,28.26,2Zm0,47.268A21.008,21.008,0,1,1,49.268,28.26,21.036,21.036,0,0,1,28.26,49.268ZM40.313,16.653,23.008,33.959l-6.8-6.775-3.7,3.7,10.5,10.5L44.016,20.382Z" transform="translate(1.74 1.74)" fill="#40be51"/>
+</svg>

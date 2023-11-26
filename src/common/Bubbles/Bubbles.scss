@@ -1,0 +1,143 @@
+.participant_bubble_wrapper {
+    display: flex;
+    align-items: center;
+
+    .participant_bubble {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #fff;
+        background-color: var(--colorLite);
+        color: var(--color);
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        cursor: default;
+
+        .initial {
+            font: normal normal 14px/100% var(--regular);
+            letter-spacing: 0px;
+            color: inherit;
+        }
+
+        img {
+            border-radius: 50%;
+            object-position: center;
+            object-fit: cover;
+        }
+
+        &:hover {
+            z-index: 2;
+        }
+        &.dark {
+            --colorLite: #7E8299 !important;
+            --color: #FFFFFF !important;
+        }
+        &:hover {
+            .tooltip_black {
+                z-index: 0;
+                opacity: 1;
+                visibility: visible;
+                transition: 200ms ease-in-out;
+    
+            }
+        }
+    }
+
+    >:not(:first-child) {
+        margin-left: -14px;
+    }
+
+    >:first-child {
+        --colorLite: #b2f56a;
+        --color: #82c43c;
+    }
+
+    >:nth-child(8) {
+        --colorLite: #5dbef9;
+        --color: #3C90C4;
+    }
+
+    >:nth-child(7) {
+        --colorLite: #5ec1ff;
+        --color: #3C90C4;
+    }
+
+    >:nth-child(6) {
+        --colorLite: #9ECE9A;
+        --color: #3aaf30;
+    }
+
+    >:nth-child(5) {
+        --colorLite: #7f7caf;
+        --color: #2a1ed3;
+    }
+
+    >:nth-child(8) {
+        --colorLite: #f89475;
+        --color: #993010;
+    }
+
+    >:nth-child(4) {
+        --colorLite: #b2e1ff;
+        --color: #1a6fa3;
+    }
+
+    >:nth-child(6) {
+        --colorLite: #fda09f;
+        --color: #b3110e;
+    }
+    >:nth-child(3) {
+        --colorLite: #c9f3c5;
+        --color: #086100;
+    }
+
+    >:nth-child(2) {
+        --colorLite: #FFCCCC;
+        --color: #FF4747;
+    }
+
+    >:nth-child(1) {
+        --colorLite: #CCE0FF;
+        --color: #0F53F8;
+    }
+    .tooltip_black {
+        opacity: 0;
+        visibility: hidden;
+        transition: 200ms ease-in-out;
+        position: absolute;
+        top: calc(100% + 10px);
+        z-index: -999;
+        background-color: #000;
+        color: #fff;
+        min-width: 100px;
+        max-width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-height: 24px;
+        display: inline-block;
+        flex: 1 1 auto;
+        text-align: center;
+        border-radius: 4px;
+        font: normal normal 12px/17px var(--regular);
+        letter-spacing: 0px;
+        padding: 3px;
+        word-break: normal;
+        white-space: break-spaces;
+
+        &:after {
+            position: absolute;
+            content: "";
+            bottom: 100%;
+            left: 50%;
+            transform: translatex(-50%);
+            width: 0px;
+            height: 0;
+            border-color:  transparent transparent #000;
+            border-style: solid;
+            border-width:  0 7px 5px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.pagesInfo{
+    display: flex;
+    align-items: center;
+    .info{
+        white-space: nowrap;
+        color: #7E8299;
+        letter-spacing: 0px;
+        font: normal normal 14px/14px var(--regular);
+        margin-right: 55px;
+    }
+}

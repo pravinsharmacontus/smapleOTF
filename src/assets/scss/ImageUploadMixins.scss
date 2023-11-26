@@ -1,0 +1,77 @@
+@mixin ImgUpload {
+    .ImgUpload{
+      .grp-image {
+          width: 7.563rem;
+          height: 7.563rem;
+          position: relative;
+          margin-bottom: .75rem;
+          color: #555;
+          background: #f2f2f2;
+          img {
+              border-radius: 0.125rem;
+              background: #f2f2f2;
+              width: 7.563rem;
+              height: 7.563rem;
+              max-width: 7.563rem;
+              overflow: hidden;
+              object-position: center;
+              object-fit: cover;
+          }
+          label {
+              position: absolute;
+              bottom: -16px;
+              right: -0.813rem;
+              border-radius: 50%;
+              width: 46px;
+              height: 46px;
+              box-shadow: 0 0 0 0.15rem #fff;
+              cursor: pointer;
+              input {
+                  position: absolute;
+                  width: 0;
+                  height: 0;
+              }
+              i{
+                width: 100%;
+                height: 100%;
+              }
+          }
+      }
+  
+      &.sm {
+          .label{
+              color: #949494 !important;
+          }
+          .grp-image {
+              width: 5.813rem;
+              height: 5.813rem;
+              img {
+                  width: inherit;
+                  height: inherit;
+              }
+          }
+      }
+      .errorMessage {
+          margin-bottom: 0.313rem;
+          display: inline-block;
+          color: #f25468;
+          position: relative;
+          left: 0rem;
+          font-size: 12px;
+          line-height: 100%;
+          font-family: var(--regular);
+      }
+      .note{
+      font-size: var(--commonFsize);
+      line-height:1rem;
+      font-family:var(--regular);
+      color: #6D727E;
+      margin-bottom: 0.75rem;
+      display: block;
+      padding-top: 3px;
+      }
+      .errorMessage{
+        margin-top: 1.25rem;
+      }
+  }
+    }

@@ -1,0 +1,14 @@
+<svg id="minus" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+    <g id="add-svgrepo-com" transform="translate(-0.75 0.718)">
+        <g id="Group_21711" data-name="Group 21711">
+            <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(0.75 -0.718)" fill="#fff" stroke="#156ae6"
+                stroke-width="3">
+                <circle cx="26" cy="26" r="26" stroke="none" />
+                <circle cx="26" cy="26" r="24.5" fill="none" />
+            </g>
+            <path id="Path_14765" fill="#156ae6" stroke="#156ae6" stroke-width="1" data-name="Path 14765"
+                d="M161.418,147.435H141.24a1.335,1.335,0,1,0,0,2.669h20.178a1.335,1.335,0,1,0,0-2.669Z"
+                transform="translate(-124.65 -123.653)" />
+        </g>
+    </g>
+</svg>

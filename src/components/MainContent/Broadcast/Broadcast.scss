@@ -1,0 +1,28 @@
+.action_join {
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 1px solid #FF0935;
+    background: transparent;
+    color: #FF0935;
+    font: normal normal 16px/100% var(--semibold);
+    white-space: nowrap;
+    border-radius: 4px;
+
+    &:hover,&:focus-visible{
+        border: 1px solid #b00a29;
+        background: #b00a29;
+        color: #fff;
+    }
+    &.disable , &.disable:hover{
+        border: 1px solid #C9C9C9;
+        background: transparent;
+        color: #C9C9C9;
+        cursor: default;
+    }
+}

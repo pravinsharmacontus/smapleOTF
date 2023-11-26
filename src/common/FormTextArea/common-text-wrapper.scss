@@ -1,0 +1,13 @@
+.common-textarea-wrapper{
+    margin-top: 0 !important;
+    position: relative;
+    margin-bottom: 1.25rem !important;
+    margin-right: 1.5625rem;
+    max-width: 31.5rem;
+    .placeholder{
+        font: normal normal 0.875rem/0.9375rem var(--regular);
+        color: #7E8299;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+}

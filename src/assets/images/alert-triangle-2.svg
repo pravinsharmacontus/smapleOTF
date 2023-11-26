@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="alert" transform="translate(-598 -10)">
+    <rect id="Rectangle_14028" data-name="Rectangle 14028" width="32" height="32" transform="translate(598 10)" fill="none"/>
+    <path id="warning_black_24dp_2_" data-name="warning_black_24dp (2)" d="M5.175,26.992H25.541a2.7,2.7,0,0,0,2.34-4.057L17.7,5.341a2.7,2.7,0,0,0-4.679,0L2.836,22.935a2.7,2.7,0,0,0,2.34,4.057Zm10.183-9.466a1.356,1.356,0,0,1-1.352-1.352v-2.7a1.352,1.352,0,1,1,2.7,0v2.7A1.356,1.356,0,0,1,15.358,17.526Zm1.352,5.409h-2.7v-2.7h2.7Z" transform="translate(598.531 11.008)" fill="currentColor"/>
+  </g>
+</svg>

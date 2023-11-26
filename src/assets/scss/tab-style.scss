@@ -1,0 +1,108 @@
+// tab style
+.custom-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    background: var(--BgBright);
+    min-width: 11.625rem;
+    padding-left: var(--rightpartpad);
+    border-bottom: 1px solid #e1e1e1;
+    white-space: nowrap;
+    .detailList {
+        box-shadow: 0px 1px 2px rgba(73, 91, 120, 0.2);
+        padding-left: var(--rightpartpad);
+    }
+
+    .ul {
+        width: 100%;
+        display: flex;
+
+        .li {
+            background-color: transparent;
+            cursor: pointer;
+            height: 2.5rem;
+            padding: 0 14px;
+            font-size: var(--headingFsize);
+            font-family: var(--semibold);
+            line-height: 2.375rem;
+            border-bottom: none;
+            transition: 300ms linear;
+            color: #6d727e;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            user-select: none;
+
+            &:before {
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                width: 0;
+                height: 3px;
+                content: "";
+                background: var(--secondary);
+                border-radius: 0px 0.375rem 0.375rem 0px;
+                opacity: 0;
+                transition-duration: 0.4s;
+            }
+
+            &:hover,&:focus-visible,
+            &.active {
+                font-size: var(--headingFsize);
+                line-height: 2.375rem;
+                transition: 300ms linear;
+                color: var(--txtDark);
+                position: relative;
+                background: var(--white);
+            }
+
+            &.active {
+                font-family: var(--bold);
+                cursor: default;
+                &:before {
+                    opacity: 1;
+                    transition: 300ms linear;
+                    width: 100%;
+                    left: 0;
+                }
+            }
+
+            &:first-child {
+                border: none;
+            }
+            &:nth-child(1){
+                width: 128px;
+            }
+            &:nth-child(2){
+                width: 159px;
+            }
+            &:nth-child(3){
+                width: 140px;
+            }
+            &:nth-child(4){
+                width: 191px;
+            }
+            &:nth-child(5){
+                width: 173px;
+            }
+        }
+    }
+
+    @media screen and (max-width:991px) {
+       .ul{
+        flex-wrap: wrap;
+        padding: 6px 0;
+        .li{
+            &:before {
+                display: none;
+            }
+            &.active{
+                background-color: #00000012;
+                border-radius: 4px;
+            }
+        }
+       }
+    }
+}

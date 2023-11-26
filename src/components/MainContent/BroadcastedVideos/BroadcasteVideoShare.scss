@@ -1,0 +1,96 @@
+.share_video_modal {
+    .ActionPopupInner {
+        max-width: 530px !important;
+        min-width: 530px !important;
+    }
+
+    .radio_custom_check {
+        display: flex;
+        align-items: center;
+        margin-bottom: -12px;
+        .radio-custom{
+            cursor: pointer;
+            margin-bottom: 32px;
+            margin-right: 6px;
+            .label{
+                font-size: 14px;
+                margin-left: 6px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .fixed_size_input {
+        display: flex;
+        padding: 0;
+        margin-left: auto;
+        margin-right: -6px;
+        max-width: 224px;
+
+        fieldset {
+            position: relative;
+            margin-left: 6px;
+            margin-right: 6px;
+
+            input {
+                font: normal normal 14px/14px var(--regular);
+                letter-spacing: 0px;
+                color: #000000;
+                border-radius: 4px;
+                padding: 5px 30px 5px 20px;
+            }
+            button {
+                padding: 2px;
+                background-color: transparent;
+                font: normal normal 14px/14px var(--regular);
+                letter-spacing: 0px;
+                color: #C9C9C9;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translateY(-50%);
+                transition: 150ms ease-in-out;
+    
+                &:hover {
+                    transition: 150ms ease-in-out;
+                    color: #1367F2;
+                }
+            }
+        }
+    }
+
+    .static{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)) !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        padding: 10px !important;
+        position: absolute !important;
+        right: 0 !important;
+        transition: all .2s ease !important;
+        height: auto !important;
+        &.hide{
+            opacity: 0 !important;
+        }
+    }
+}
+
+.broadcaste_video_share_wraper {
+    width: 100%;
+    text-align: left;
+    padding-top: 28px;
+    padding-bottom: 6px;
+
+    fieldset {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 22px;
+    }
+    .video_parent_wraper{
+        width: 100%;
+        height: 250px;
+        .broadcasted_videos_body,.broadcasted_video,.viewers_broadcast_video,.container-custom-vplayer{
+            height: 100%;
+        }
+        margin-bottom: 20px;
+    }
+}

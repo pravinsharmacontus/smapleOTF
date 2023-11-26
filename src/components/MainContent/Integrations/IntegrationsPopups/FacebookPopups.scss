@@ -1,0 +1,213 @@
+.facebookpage_list {
+    overflow: auto;
+    width: 100%;
+    margin-top: 6px;
+    padding: 6px 0 6px 0;
+    max-height: 240px;
+
+    .fb_page_li {
+        margin-bottom: 2px;
+        margin-top: 2px;
+        width: 99%;
+        background: #F7F7F7;
+        border: 1px solid transparent;
+        border-radius: 0;
+        transition: 150ms ease-in-out;
+        padding: 0;
+        outline: 1px solid transparent;
+        &.active,
+        &:not(._disabled_btn):hover {
+            border-color: #1EAC8F;
+            transition: 150ms ease-in-out;
+        }
+        &:not(._disabled_btn):focus{
+            border-color: #1EAC8F;
+        }
+
+        .fb_page_card {
+            outline: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: transparent;
+            text-align: left;
+            border: 0;
+            width: 100%;
+            
+
+        .fb_page_img_card {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            margin: 0 6px;
+            flex-shrink: 0;
+            background-color: #ACACAE;
+        }
+
+        .fb_page_img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-position: cover;
+            object-position: center;
+        }
+
+        .fb_page_info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            width: 100%;
+            padding: 0 6px;
+        }
+
+        .fb_page_name {
+            font: normal normal 16px/20px var(--semibold);
+            letter-spacing: 0px;
+            color: #2D4047;
+            margin-bottom: 4px;
+            width: 100%;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .fb_page_type {
+            display: inline-block;
+            font: normal normal 14px/20px var(--regular);
+            letter-spacing: 0px;
+            color: #818181;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .fb_page_status {
+            font: normal normal 18px/24px var(--semibold);
+            letter-spacing: 0px;
+            color: #1EAC8F;
+            padding: 0 6px 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+}
+
+.ActionPopup.md.facebook_acc_success_modal {
+    .ActionPopupInner {
+        @media screen and (min-width: 1440px) {
+            min-width: 693px;
+        }
+    }
+}
+
+.facebook_acc_success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    @media screen and (min-width : 1440px) {
+        height: 374px;
+    }
+
+    @media screen and (max-width : 1439px) {
+        height: 260px;
+    }
+
+    .icon_animate {
+        margin: 0 auto;
+        margin-bottom: 12px;
+
+        @media screen and (min-width : 1440px) {
+            width: 137px;
+            height: 137px;
+        }
+
+        @media screen and (max-width : 1439px) {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .facebook_status {
+        width: 100%;
+        letter-spacing: 0px;
+        color: #000000;
+
+        @media screen and (min-width : 1440px) {
+            font: normal normal 32px/39px var(--medium);
+        }
+
+        @media screen and (max-width : 1439px) {
+            font: normal normal 26px/32px var(--medium);
+        }
+    }
+}
+
+.fb_group_connect_detail {
+    text-align: left;
+    width: 100%;
+    .fb_group_connect_details{
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 573px;
+    }
+    .heading {
+        display: block;
+        font: normal normal 18px/22px var(--regular);
+        letter-spacing: 0px;
+        color: #2D4047;
+        margin-bottom: 28px;
+        margin-top: 28px;
+    }
+
+    .point_heading {
+        display: block;
+        font: normal normal 16px/24px var(--semibold);
+        letter-spacing: 0px;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+
+    .btn_group_connect {
+        width: 323px;
+        height: 52px;
+        background: #1B74E4;
+        border:1px solid #1B74E4;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        margin-bottom: 28px;
+        display: block;
+        line-height: 45px;
+
+        &:hover {
+            background: #0765d8;
+            transition: all 150ms ease-in-out;
+        }
+    }
+    .point_img{
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 28px;
+    }
+}
+._disabled_btn_{
+    border-color: transparent !important;
+    cursor: default !important;
+}

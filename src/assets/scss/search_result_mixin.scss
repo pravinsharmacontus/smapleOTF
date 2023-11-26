@@ -1,0 +1,37 @@
+@import './scrollbar-sm.scss'; 
+
+@mixin SearchResults {
+    .SearchResults {
+      position: absolute;
+      min-width: 5.4375rem;
+      background: #fff !important;
+      display: inline-block !important;
+      z-index: 100;
+      top: calc(100% + 0.5rem);
+      left: 0px;
+      padding: 0.25rem !important;
+      transition: bottom 200ms linear;
+      box-shadow: 0rem 0.1875rem 1.125rem #0000001A;
+      border-radius: 0.25rem;
+      max-height: 12.5rem;
+      overflow-x: hidden;overflow-y: auto;
+      right: 0;
+      li{
+          cursor: pointer;
+          font-size: 0.688rem;
+          font-family: var(--regular);
+          letter-spacing: 0px;
+          color: #000000;
+          padding: 0.625rem 1.25rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          transition: 200ms linear;
+          &:hover{
+              background: #edf7ff;
+              transition: 200ms linear;
+          }
+      }
+      @include scrollbar-sm();
+}
+  }

@@ -1,0 +1,569 @@
+@media screen and (max-width: 1365px) {
+    :root {
+        --rightSpaceAdjustment: 2%;
+    }
+    .AppContainer .wrapper,
+    #modal .wrapper,
+    #modal1 .wrapper,
+    #modal2 .wrapper  {
+        max-width: 100% !important;
+    }
+    .customersWrapper .customersInner {
+        display: inline-block;
+        &.wrapper {
+            max-width: 100%;
+            padding-right: 0;
+            display: flex;
+        }
+    }
+    .APPVersionsWrapper .wrapper {
+        max-width: 100%;
+    }
+    .full.fullScroll {
+        .sticky-table-table,
+        .TableOpertion {
+            padding-left: 0 !important;
+        }
+    }
+    .sticky-table-table,
+    .fullScroll .TableOpertion {
+        max-width: 100% !important;
+    }
+    .fullScroll {
+        min-width: 100%;
+    }
+    .AppContainer .PopupFormBody .DashBoardAnalytics {
+       flex: 0 1 calc(100% - 1%);
+        width: 100%;
+    }
+    //
+} //1365px
+//
+
+@media screen and (max-width: 1199px) {
+    .table-common {
+        .text-inline {
+            word-break: break-word;
+            white-space: normal;
+            min-width: 140px;
+        }
+        .dflexAlign {
+            margin: 0 4.6% 1.875rem 3.25rem;
+        }
+    }
+
+    //
+} //1199
+//
+@media screen and (max-width: 1023px) {
+    :root {
+        --rightSpaceAdjustment: 0%;
+    }
+    .AppContainer {
+        .fixedHeaderContainer {
+            .headerWrapper {
+                height: 100%;
+                header {
+                    justify-content: space-between;
+                    .hamburger {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .cardsContainer {
+            flex-direction:column;
+            .cards {
+                min-width: 9.375rem;
+                flex:1 1 50%;
+                margin-left: 0 !important;
+            }
+        }
+        .MainWrapper {
+            .ContentWrapper {
+                .customersInner {
+                    width: 100%;
+                }
+                .leftSide {
+                    margin-bottom: 0;
+                }
+                .detailList ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    li {
+                        padding: 0 1rem 0 1rem;
+                        &:before {
+                            left: 0px;
+                            height: 0.188rem;
+                            width: 100%;
+                            bottom: 0;
+                            border-radius: 0.375rem 0.375rem 0 0px;
+                        }
+                    }
+                }
+                .leftGrid {
+                    margin-bottom: 1.375rem;
+                }
+                .PopupFormBody {
+                    padding-left: 0 !important;
+                    overflow-x: hidden;overflow-y: auto;
+                    margin-bottom: 1.25rem;
+                    &.pr-20 {
+                        padding-right: 0 !important;
+                    }
+                    .table-responsive {
+                        padding-right: 0 !important;
+                    }
+                }
+                .PopupFormBody .grid-9 {
+                    padding-left: 0;
+                }
+            }
+        }
+        .PopupWrapper {
+            .PopupFormBody {
+                padding-left: 0;
+            }
+        }
+    }
+    .APPVersionsWrapper .AppList .AppListInner.GridView .appListGrid {
+        flex: 0 0 50%;
+    }
+    .customersInner {
+        &.wrapper .SubTitle {
+            top: -0.8rem;
+        }
+        .Heading {
+            padding: 0 0.9375rem 0 0;
+        }
+    }
+    .customersInner .Heading h2 {
+        margin-top: 1.2rem;
+    }
+    .dflexAlign {
+        margin-left: 0 !important;
+        &.custom {
+            margin: 0 1.25rem !important;
+        }
+    }
+    .table-common.stickyHeader .table-responsive.sm {
+        max-width: 100% !important;
+    }
+    .alertWrapper {
+        .alert-lg .alert-content {
+            flex-direction: column;
+        }
+    }
+    .PaymentWrapper {
+        .cardsContainer {
+            .cardsList .cards:not(:first-child) {
+                margin-left: 0 !important;
+                padding-left: 20px !important;
+            }
+        }
+    }
+    .paymentMethodForm {
+        padding: 0 1em;
+    }
+    //
+} //1023px
+//
+@media screen and (max-width: 992px) {
+    .AppContainer .alertWrapper {
+        .PaymentMethod {
+            padding: 0;
+        }
+    }
+    .CustomerPlanDetails {
+        display: none !important;
+    }
+    //}
+} //992
+//
+
+@media screen and (max-width: 767px) {
+    .PopupWrapper .PopupForm.sm .PopupFormHeader {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+        .close {
+            top: 50% !important;
+        }
+    }
+    .APPVersionsWrapper .AppList .AppListInner.GridView .appListGrid {
+        flex: 0 0 100%;
+    }
+    .alertWrapper {
+        .alert-lg .alert-content {
+            .alert-col {
+                &:not(:first-child) {
+                    margin-top: 0.625rem;
+                    .btn-dark2 {
+                        margin: 0.625rem 0 0 0;
+                    }
+                }
+                &:last-child {
+                    a {
+                        margin-left: 0;
+                        margin-top: 10px;
+                    }
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .dflexAlign {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        > div {
+            width: 100%;
+        }
+    }
+    .AppContainer .ContentWrapper .analysisWrapper2.callAnalysis {
+        margin-left: 0 !important;
+        padding-top: 0.75rem;
+    }
+    .AppContainer .alertWrapper {
+        .PaymentMethod {
+            flex-direction:column;
+            > div {
+                border: none;
+                width: 100%;
+                flex:1 1 auto;
+                align-self: flex-start !important;
+                &:nth-child(1) {
+                    align-items: baseline;
+                }
+                &:nth-child(3) {
+                    justify-content: flex-start;
+                }
+                > div {
+                    padding: 0.625rem;
+                }
+            }
+            p {
+                max-width: 100% !important;
+                width: 100%;
+            }
+            .br {
+                display: none;
+            }
+        }
+    }
+    .alertWrapper .alert-sm {
+        p,
+        a {
+            font-size: 0.75rem;
+            line-height: 1rem;
+        }
+    }
+    .AppContainer .PopupFormBody .DashBoardAnalytics {
+        flex: 1 1 calc(100%);
+        width: 100%;
+        .grid-6 {
+            flex: 1 1 100%;
+        }
+        .analysisWrapper2.callAnalysis {
+            padding-top: 0.625rem !important;
+        }
+    }
+    .subHeading {
+        flex-wrap: wrap;
+    }
+    .alert-dashbord {
+        flex: 1 1 100%;
+        margin-top: 0.5rem;
+        .alert-rounded {
+            position: static;
+            transform: none;
+            min-width: auto;
+        }
+    }
+    .PopupFormBody &.setting form {
+        padding-top: 1.25rem !important;
+    }
+    .grid {
+        padding: 1.25rem !important;
+    }
+    
+    //}
+} //767px
+//
+@media screen and (max-width: 640px) {
+    .AppContainer {
+        .APPAddVersionPoppup {
+            .PopupFormBody,
+            .PopupFormHeader {
+                padding: 1.125rem 1.5rem 0 1.7rem !important;
+            }
+
+            .AppFileWrapper {
+                .fileList {
+                    flex-flow: wrap column;
+                    position: relative;
+                    .iconFile {
+                        .text {
+                            text-align: center;
+                            margin: 0.875rem;
+                        }
+                    }
+                }
+                .removeFile{
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                }
+            }
+        }
+        .alertWrapper .alert-sm {
+            flex-direction:column;
+            align-items: baseline;
+            p,
+            a {
+                margin: 0.375rem 0;
+                div {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .AppContainer .ContentWrapper .analysisWrapper2 .tabs {
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .AppFileWrapper {
+        .fileList {
+            flex-wrap: wrap;
+        }
+        .fileswrapper {
+            margin: 0.5rem 0 0.5rem 0;
+            flex-wrap: wrap;
+            > div {
+                margin: 0.5rem 0 0.5rem 0;
+            }
+        }
+    }
+    .AppContainer .PopupWrapper .PopupFormBody {
+        padding: 0 !important;
+    }
+    .visible-flx-567 {
+        display: flex !important;
+    }
+    .hidden-567 {
+        display: none !important;
+    }
+    .grp-col-2 {
+        flex-wrap: wrap;
+        > div {
+            width: 100% !important;
+            max-width: 100% !important;
+            &:first-child {
+                margin-bottom: 0.625rem;
+            }
+        }
+        .singleDate {
+            width: 100%;
+            > div {
+                width: 100%;
+            }
+            .SingleDatePickerInput {
+                width: 100%;
+            }
+        }
+    }
+    //
+} //567px
+//
+
+@media screen and (max-width: 400px) {
+    .AppContainer .hamburger {
+        margin-left: 1rem;
+    }
+    .AppContainer .profile-details {
+        margin: 0 0 0 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .AppContainer .MainWrapper .SubTitleContainer .Btn {
+        i {
+            margin-right: 0;
+        }
+        span {
+            display: none !important;
+        }
+
+        &.premium {
+            i {
+                margin-right: 0.25rem;
+            }
+            strong {
+                display: none;
+            }
+            span {
+                display: inline-block !important;
+            }
+            .link_changePlan {
+                margin-top: 0.4rem;
+            }
+        }
+    }
+    .PopupWrapper {
+        height: auto;
+        .PopupFormHeader {
+            height: auto;
+            .Steps {
+                flex-wrap: wrap;
+                > div {
+                    min-width: 110px;
+                }
+                .notfilled {
+                    margin-bottom: 0.3125rem;
+                }
+            }
+        }
+        .PopupFormBody {
+            height: calc(100vh - 7.1rem - 3.75rem - var(--ismobile));
+        }
+    }
+    .AppContainer .MainWrapper .SubTitleContainer {
+        .Activate {
+            a span {
+                display: inline-block !important;
+            }
+            .activateAlert {
+                left: -11%;
+            }
+        }
+    }
+    //
+} //480px
+//
+
+@media screen and (min-width: 1365.5px) {
+    :root {
+        --rightSpaceAdjustment: 5%;
+    }
+
+    .PaymentInner.wrapper {
+        max-width: 92% !important;
+    }
+    .AppContainer .wrapper.lg,
+    #modal .wrapper.lg,
+    #modal1 .wrapper.lg,
+    #modal2 .wrapper.lg
+    {
+        max-width: 95% !important;
+    }
+    .customersInner {
+        &.wrapper {
+            max-width: 100% !important;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .full.fullScroll {
+        .sticky-table-table {
+            padding-right: 0 !important;
+        }
+    }
+    //
+} // 1365.5px
+//
+@media screen and (min-width: 1919.5px) {
+    :root {
+        --rightSpaceAdjustment: 7%;
+    }
+    .PaymentInner.wrapper {
+        max-width: 92% !important;
+    }
+    .AppContainer .wrapper.lg,
+    #modal .wrapper.lg,
+    #modal1 .wrapper.lg,
+    #modal2 .wrapper.lg {
+        max-width: 92% !important;
+    }
+    .customersInner {
+        &.wrapper {
+            max-width: 100% !important;
+            padding-left: calc(4% + 1.25rem);
+        }
+    }
+
+    .AppContainer .navigationSlider nav.slidingNov > ul,
+    #modal .navigationSlider nav.slidingNov > ul,
+    #modal1 .navigationSlider nav.slidingNov > ul,
+    #modal2 .navigationSlider nav.slidingNov > ul {
+        min-width: 46.875rem !important;
+    }
+    .APPVersionsWrapper .AppList .AppListInner .AppVersionWrapper .VersionDetails .VNumber .badge {
+        font-size: 10px;
+        line-height: 14px;
+        &.hot {
+            top: -1px;
+            padding: 2px 5px;
+            i {
+                width: 10px;
+                height: 13px;
+                svg {
+                    width: 10px;
+                    height: 13px;
+                }
+            }
+        }
+    }
+    .ViewedList .Hotlg svg {
+        width: 13px !important;
+        height: 20px !important;
+    }
+
+    .ViewMode {
+        .grp-input {
+            input[type="text"] {
+                height: auto !important;
+            }
+        }
+    }
+
+    .PopupSqureInner .AppVersionWrapper .VersionDetails .VNumber .badge {
+        font-size: 10px;
+        line-height: 9px;
+        &.hot {
+            line-height: 13px;
+        }
+    }
+    .PopupSqureInner.APPVersionsPoppup .AppVersionWrapper .VersionInfo {
+        margin-bottom: 0.375rem;
+    }
+    // .ViewedList {
+    //     .AppVersionWrapper {
+    //         .VDescription,
+    //         .VersionTitle {
+    //             width: 20rem !important;
+    //             max-width: 20rem !important;
+    //         }
+    //     }
+    // }
+    .infostyle-box .title {
+        font-size: 14px;
+    }
+    .singleDate {
+        .calendar {
+            bottom: 1rem !important;
+        }
+        .placeholder {
+            font-size: 0.69rem !important;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .AppContainer {
+        .wrapper,
+        .pd-parent {
+            padding: 0 !important;
+        }
+    }
+}

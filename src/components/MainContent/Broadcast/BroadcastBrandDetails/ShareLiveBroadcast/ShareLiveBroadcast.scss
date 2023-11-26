@@ -1,0 +1,41 @@
+.share_live_broadcast_wraper {
+    padding: 25px 25px 25px 25px;
+
+    .broadcaste_video_share_wraper {
+        padding-top: 0;
+    }
+
+    .video_parent_wraper {
+        height: 200px !important;
+    }
+
+    .content_head {
+        h4 {
+            font: normal normal 16px/17px var(--semibold);
+            letter-spacing: 0px;
+            margin-bottom: 6px;
+            color: #000000;
+        }
+
+        p {
+            font: normal normal 12px/17px var(--regular);
+            letter-spacing: 0px;
+            color: #6D727E;
+        }
+
+        margin-bottom: 12px;
+    }
+    .static{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)) !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        padding: 10px !important;
+        position: absolute !important;
+        right: 0 !important;
+        transition: all .2s ease !important;
+        height: auto !important;
+        &.hide{
+            opacity: 0 !important;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.168" height="20.191" viewBox="0 0 20.168 20.191">
+  <g id="stop_record" data-name="stop record" transform="translate(-556 -384)">
+    <g id="pause-circle" transform="translate(556 384)">
+      <path id="Vector" d="M18.559,9.279A9.279,9.279,0,1,1,9.279,0,9.279,9.279,0,0,1,18.559,9.279Z" transform="translate(0.859 0.884)" fill="none" stroke="#fc0e35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M2.524,5.317V.622C2.524.176,2.338,0,1.865,0H.659C.186,0,0,.176,0,.622v4.7c0,.445.186.622.659.622h1.2C2.338,5.938,2.524,5.762,2.524,5.317Z" transform="translate(6.456 7.195)" fill="none" stroke="#fc0e35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M2.515,5.317V.622C2.515.176,2.329,0,1.856,0H.659C.186,0,0,.176,0,.622v4.7c0,.445.186.622.659.622h1.2C2.329,5.938,2.515,5.762,2.515,5.317Z" transform="translate(11.364 7.195)" fill="none" stroke="#fc0e35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H20V20H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
